@@ -42,5 +42,21 @@ describe("Scorer", function() {
     expect(SemiDemi.score( [ { version: "a+-[]{}./?\\*()!£$%^&*())bc" }, { fuzzy: "def" } ], "a+-[]{}./?\\*()!£$%^&*())bc1.00def" )).toBe(0);
   });
 
+  it("version normalising handles multiple part versions", function() {
+    expect(SemiDemi.score( [ { version: "abc" }, { fuzzy: "def" } ], "abc1.0.0def" )).toBe(0);
+  });
+
+  it("version normalising handles long multiple part versions", function() {
+    expect(SemiDemi.score( [ { version: "abc" }, { fuzzy: "def" } ], "abc999.9999.99999.999999def" )).toBe(0);
+  });
+
+  it("version normalising handles underscores", function() {
+    expect(SemiDemi.score( [ { version: "abc" }, { fuzzy: "def" } ], "abc1.0_0def" )).toBe(0);
+  });
+
+  it("version normalising with ; prefix", function() {
+    expect(SemiDemi.score( [ { version: "; " }, { fuzzy: "def" } ], "; 1.0_0def" )).toBe(0);
+  });
+
 
 });
