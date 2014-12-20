@@ -1,5 +1,6 @@
 describe("Scorer", function() {
 
+
   it("scores 1 per char with empty matcher", function() {
     expect(SemiDemi.score( [ ], "abc" )).toBe(3);
   });
@@ -31,5 +32,11 @@ describe("Scorer", function() {
   it("scores 1 when one fuzzy char is extra", function() {
     expect(SemiDemi.score( [ { fuzzy: "ac" } ], "abc" )).toBe(1);
   });
+
+
+  it("basic version matching", function() {
+    expect(SemiDemi.score( [ { version: "abc" }, { fuzzy: "def" } ], "abc1.00def" )).toBe(0);
+  });
+
 
 });

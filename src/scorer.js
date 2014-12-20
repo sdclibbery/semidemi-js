@@ -4,11 +4,26 @@ var SemiDemi = (function (SemiDemi) {
   // The higher the score, the worse the match, so a score of zero represents an exact match.
   SemiDemi.score = function (matcher, ua) {
     var constructed = "";
+    var normalised = ua;
     for (var i = 0; i < matcher.length; i++) {
       if (matcher[i].fuzzy) { constructed += matcher[i].fuzzy; }
       if (matcher[i].invariant) { constructed += matcher[i].invariant; }
+      if (matcher[i].version) {
+        constructed += matcher[i].version;
+        var base = matcher[i].version;
+        // base = base.replace(/\\/, "\\\\");
+        // base = base.replace(/\*/, "\\*");
+        // base = base.replace(/\./, "\\.");
+        // base = base.replace(/\[/, "\\[");
+        // base = base.replace(/\]/, "\\]");
+        // base = base.replace(/\+/, "\\+");
+        // base = base.replace(/\-/, "\\-");
+        // base = base.replace(/\?/, "\\?");
+        var regex = new RegExp (base + "[0-9._]+");
+        normalised = normalised.replace(regex, matcher[i].version);
+      }
     }
-    return editDistance(ua, constructed);
+    return editDistance(normalised, constructed);
   };
 
   var editDistance = function (a, b) {
