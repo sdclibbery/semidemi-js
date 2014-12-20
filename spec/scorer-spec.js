@@ -12,4 +12,8 @@ describe("Scorer", function() {
     expect(SemiDemi.score( [ { fuzzy: "abc" }, { disallowd: "def" } ], "abc" )).toBe(0);
   });
 
+  it("score 0 when whole string is matched by two fuzzy items", function() {
+    expect(SemiDemi.score( [ { fuzzy: "ab" }, { fuzzy: "c" } ], "abc" )).toBe(0);
+  });
+
 });
