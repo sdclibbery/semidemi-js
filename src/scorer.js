@@ -10,20 +10,28 @@ var SemiDemi = (function (SemiDemi) {
       if (matcher[i].invariant) { constructed += matcher[i].invariant; }
       if (matcher[i].version) {
         constructed += matcher[i].version;
-        var base = matcher[i].version;
-        // base = base.replace(/\\/, "\\\\");
-        // base = base.replace(/\*/, "\\*");
-        // base = base.replace(/\./, "\\.");
-        // base = base.replace(/\[/, "\\[");
-        // base = base.replace(/\]/, "\\]");
-        // base = base.replace(/\+/, "\\+");
-        // base = base.replace(/\-/, "\\-");
-        // base = base.replace(/\?/, "\\?");
-        var regex = new RegExp (base + "[0-9._]+");
-        normalised = normalised.replace(regex, matcher[i].version);
+        normalised = normalised.replace(buildNormalisationRegEx(matcher[i].version), matcher[i].version);
       }
     }
     return editDistance(normalised, constructed);
+  };
+
+  var buildNormalisationRegEx = function (prefix) {
+    prefix = prefix.replace(/\\/g, "\\\\");
+    prefix = prefix.replace(/\*/g, "\\*");
+    prefix = prefix.replace(/\./g, "\\.");
+    prefix = prefix.replace(/\[/g, "\\[");
+    prefix = prefix.replace(/\]/g, "\\]");
+    prefix = prefix.replace(/\+/g, "\\+");
+    prefix = prefix.replace(/\-/g, "\\-");
+    prefix = prefix.replace(/\?/g, "\\?");
+    prefix = prefix.replace(/\(/g, "\\(");
+    prefix = prefix.replace(/\)/g, "\\)");
+    prefix = prefix.replace(/\^/g, "\\^");
+    prefix = prefix.replace(/\$/g, "\\$");
+    prefix = prefix.replace(/\!/g, "\\!");
+    prefix = prefix.replace(/\&/g, "\\&");
+    return new RegExp (prefix + "[0-9._]+");
   };
 
   var editDistance = function (a, b) {

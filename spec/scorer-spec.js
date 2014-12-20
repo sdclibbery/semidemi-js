@@ -34,8 +34,12 @@ describe("Scorer", function() {
   });
 
 
-  it("basic version matching", function() {
+  it("basic version scoring", function() {
     expect(SemiDemi.score( [ { version: "abc" }, { fuzzy: "def" } ], "abc1.00def" )).toBe(0);
+  });
+
+  it("version scoring with special chars in version prefix", function() {
+    expect(SemiDemi.score( [ { version: "a+-[]{}./?\\*()!£$%^&*())bc" }, { fuzzy: "def" } ], "a+-[]{}./?\\*()!£$%^&*())bc1.00def" )).toBe(0);
   });
 
 
