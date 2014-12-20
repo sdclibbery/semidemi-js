@@ -59,4 +59,27 @@ describe("Scorer", function() {
   });
 
 
+  describe("examples", function () {
+    var ps1 = [ { version: "Mozilla/" }, { fuzzy: " (" }, { invariant: "PLAYSTATION 3" }, { fuzzy: "; 1.00)" } ];
+    var ps2 = [ { version: "Mozilla/" }, { fuzzy: " (" }, { invariant: "PLAYSTATION 3" }, { fuzzy: "; 2.00)" } ];
+    var ps4 = [ { version: "Mozilla/" }, { fuzzy: " (" }, { invariant: "PLAYSTATION 3" }, { fuzzy: "; 4.77)" } ];
+
+    it("specific version is scored", function () {
+      expect(SemiDemi.score( ps1, "Mozilla/5.0 (PLAYSTATION 3; 2.00)" )).toBe(1);
+    });
+
+    it("exact score", function () {
+      expect(SemiDemi.score( ps2, "Mozilla/5.0 (PLAYSTATION 3; 2.00)" )).toBe(0);
+    });
+
+    it("1.00 vs 4.70", function () {
+      expect(SemiDemi.score( ps1, "Mozilla/2.0 (PLAYSTATION 3; 4.70)" )).toBe(2);
+    });
+
+    it("4.77 vs 4.70", function () {
+      expect(SemiDemi.score( ps4, "Mozilla/2.0 (PLAYSTATION 3; 4.70)" )).toBe(1);
+    });
+
+  });
+
 });
