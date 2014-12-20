@@ -47,4 +47,30 @@ describe("Matcher", function() {
     expect(SemiDemi.matches( [ { disallowed: "d" } ], "abcd" )).toBe(false);
   });
 
+  it("doesn't match second disallowed when present", function() {
+    expect(SemiDemi.matches( [ { disallowed: "d" }, { disallowed: "a" } ], "abc" )).toBe(false);
+  });
+
+  describe("Matcher Examples", function () {
+
+    var matcher = [ { invariant: "Panasonic.bd.pro4r.2014" }, { disallowed: "Opera" } ];
+
+    it("matches", function() {
+      expect(SemiDemi.matches( matcher, "Mozilla/5.0(compatible; U; InfiNet 0.1; Diga) AppleWebKit/420+ (KHTML, like Gecko)(avdn/Panasonic.bd.pro4r.2014)" )).toBe(true);
+    });
+
+    it("matches when versions change", function() {
+      expect(SemiDemi.matches( matcher, "Mozilla/15.02(compatible; U; InfiNet 30.51; Diga) AppleWebKit/42076+ (KHTML, like Gecko)(avdn/Panasonic.bd.pro4r.2014)" )).toBe(true);
+    });
+
+    it("doesn't match when version changes in invariant", function() {
+      expect(SemiDemi.matches( matcher, "Mozilla/5.0(compatible; U; InfiNet 0.1; Diga) AppleWebKit/420+ (KHTML, like Gecko)(avdn/Panasonic.bd.pro5r.2014)" )).toBe(false);
+    });
+
+    it("doesn't match when disallowed is present", function() {
+      expect(SemiDemi.matches( matcher, "Opera/5.0(compatible; U; InfiNet 0.1; Diga) AppleWebKit/420+ (KHTML, like Gecko)(avdn/Panasonic.bd.pro4r.2014)" )).toBe(false);
+    });
+
+  })
+
 });
