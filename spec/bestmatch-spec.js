@@ -18,9 +18,13 @@ describe("BestMatch", function() {
       expect(SemiDemi.bestMatch( [ inv("abc") ], "abc" )).toEqual(inv("abc"));
     });
 
-//    it("first exact", function() {
-//      expect(SemiDemi.bestMatch( [ inv("abc"), inv("def") ], "abc" )).toBe(inv("abc"));
-//    });
+    it("first exact", function() {
+      expect(SemiDemi.bestMatch( [ inv("abc"), inv("def") ], "abc" )).toEqual(inv("abc"));
+    });
+
+    it("second exact", function() {
+      expect(SemiDemi.bestMatch( [ inv("def"), inv("abc") ], "abc" )).toEqual(inv("abc"));
+    });
 
   });
 
