@@ -24,4 +24,12 @@ describe("Scorer", function() {
     expect(SemiDemi.score( [ { fuzzy: "a_c" } ], "abc" )).toBe(1);
   });
 
+  it("scores 1 when one fuzzy char is missing", function() {
+    expect(SemiDemi.score( [ { fuzzy: "abc" } ], "ac" )).toBe(1);
+  });
+
+  it("scores 1 when one fuzzy char is extra", function() {
+    expect(SemiDemi.score( [ { fuzzy: "ac" } ], "abc" )).toBe(1);
+  });
+
 });
