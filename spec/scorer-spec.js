@@ -4,7 +4,7 @@ describe("Scorer", function() {
     expect(SemiDemi.score( [ ], "abc" )).toBe(3);
   });
 
-  it("score 0 when whole string is fuzzy", function() {
+  it("scores 0 when whole string is fuzzy", function() {
     expect(SemiDemi.score( [ { fuzzy: "abc" } ], "abc" )).toBe(0);
   });
 
@@ -12,12 +12,16 @@ describe("Scorer", function() {
     expect(SemiDemi.score( [ { fuzzy: "abc" }, { disallowd: "def" } ], "abc" )).toBe(0);
   });
 
-  it("score 0 when whole string is matched by two fuzzy items", function() {
+  it("scores 0 when whole string is matched by two fuzzy items", function() {
     expect(SemiDemi.score( [ { fuzzy: "ab" }, { fuzzy: "c" } ], "abc" )).toBe(0);
   });
 
-  it("score 0 when whole string is matched fuzzy and invariant items", function() {
+  it("scores 0 when whole string is matched fuzzy and invariant items", function() {
     expect(SemiDemi.score( [ { fuzzy: "a" }, { invariant: "b" }, { fuzzy: "c" } ], "abc" )).toBe(0);
+  });
+
+  it("scores 1 when one fuzzy char is different", function() {
+    expect(SemiDemi.score( [ { fuzzy: "a_c" } ], "abc" )).toBe(1);
   });
 
 });
