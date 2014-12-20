@@ -8,4 +8,8 @@ describe("Scorer", function() {
     expect(SemiDemi.score( [ { fuzzy: "abc" } ], "abc" )).toBe(0);
   });
 
+  it("disallowed does not affect the score", function() {
+    expect(SemiDemi.score( [ { fuzzy: "abc" }, { disallowd: "def" } ], "abc" )).toBe(0);
+  });
+
 });
