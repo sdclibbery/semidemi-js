@@ -16,4 +16,8 @@ describe("Scorer", function() {
     expect(SemiDemi.score( [ { fuzzy: "ab" }, { fuzzy: "c" } ], "abc" )).toBe(0);
   });
 
+  it("score 0 when whole string is matched fuzzy and invariant items", function() {
+    expect(SemiDemi.score( [ { fuzzy: "a" }, { invariant: "b" }, { fuzzy: "c" } ], "abc" )).toBe(0);
+  });
+
 });
