@@ -9,6 +9,7 @@ var SemiDemi = (function (SemiDemi) {
   // disallowed: a string that must _not_ be present in the ua for it to match
   // version: a string prefix that will be followed by a version number. The version number will be ignored in matching.
   SemiDemi.bestMatch = function (matchers, ua) {
+    return null;
   };
 
   return SemiDemi;
