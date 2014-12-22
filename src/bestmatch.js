@@ -16,7 +16,16 @@ var SemiDemi = (function (SemiDemi) {
       }
     }
     if (matching.length === 1) { return matching[0]; }
-    return null;
+    var bestScore = Number.POSITIVE_INFINITY;
+    var bestMatch = null;
+    for (var i = 0; i < matching.length; i++) {
+      var score = SemiDemi.score(matching[i], ua);
+      if (score < bestScore) {
+        bestScore = score;
+        bestMatch = matching[i];
+      }
+    }
+    return bestMatch;
   };
 
   return SemiDemi;

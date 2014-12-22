@@ -1,18 +1,18 @@
 describe("BestMatch", function() {
 
-  var inv = function (str) {
-    return [ { invariant: str } ];
-  };
-
   it("doesnt match empty array", function() {
     expect(SemiDemi.bestMatch( [ ], "def" )).toBe(null);
   });
 
   it("doesnt match when invariant isn't present", function() {
-    expect(SemiDemi.bestMatch( [ inv("abc") ], "def" )).toBe(null);
+    expect(SemiDemi.bestMatch( [ { invariant: "abc" } ], "def" )).toBe(null);
   });
 
   describe("returns one result when one matcher matches", function () {
+
+    var inv = function (str) {
+      return [ { invariant: str } ];
+    };
 
     it("one exact", function() {
       expect(SemiDemi.bestMatch( [ inv("abc") ], "abc" )).toEqual(inv("abc"));
@@ -24,6 +24,18 @@ describe("BestMatch", function() {
 
     it("second exact", function() {
       expect(SemiDemi.bestMatch( [ inv("def"), inv("abc") ], "abc" )).toEqual(inv("abc"));
+    });
+
+  });
+
+  describe("returns the best result when multiple matchers match", function () {
+
+    var m = function (str) {
+      return [ { fuzzy: str }, { invariant: "WooHoo" } ];
+    };
+
+    it("first matcher is best", function() {
+      expect(SemiDemi.bestMatch( [ m("abc"), m("def") ], "abcWooHoo" )).toEqual(m("abc"));
     });
 
   });
