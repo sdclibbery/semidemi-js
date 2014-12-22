@@ -9,13 +9,24 @@ var SemiDemi = (function (SemiDemi) {
   // disallowed: a string that must _not_ be present in the ua for it to match
   // version: a string prefix that will be followed by a version number. The version number will be ignored in matching.
   SemiDemi.bestMatch = function (matchers, ua) {
+    var matching = filterMatching(matchers, ua);
+    if (matching.length === 1) {
+      return matching[0];
+    }
+    return findBestMatch(matching, ua);
+  };
+
+  var filterMatching = function (matchers, ua) {
     var matching = [];
     for (var i = 0; i < matchers.length; i++) {
       if (SemiDemi.matches(matchers[i], ua)) {
         matching.push(matchers[i]);
       }
     }
-    if (matching.length === 1) { return matching[0]; }
+    return matching;
+  }
+
+  var findBestMatch = function (matching, ua) {
     var bestScore = Number.POSITIVE_INFINITY;
     var bestMatch = null;
     for (var i = 0; i < matching.length; i++) {
