@@ -48,4 +48,20 @@ describe("BestMatch", function() {
 
   });
 
+  describe("returns the best result with version normalisation", function () {
+
+    var m = function (str) {
+      return [ { fuzzy: str }, { version: "c" } ];
+    };
+
+    it("first matcher is best", function() {
+      expect(SemiDemi.bestMatch( [ m("abc"), m("ab c") ], "abc123" )).toEqual(m("abc"));
+    });
+
+    it("version aware matcher is best", function() {
+      expect(SemiDemi.bestMatch( [ m("abc123"), m("abc") ], "abc123" )).toEqual(m("abc"));
+    });
+
+  });
+
 });
