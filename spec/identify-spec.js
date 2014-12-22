@@ -6,7 +6,7 @@ describe("Identify", function() {
     expect(out[0].model).toBe("chrome");
   });
 
-  it("matches smasung pe5", function() {
+  it("matches samsung pe5", function() {
     var out = SemiDemi.identify( "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV; Maple2012) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 Series=5000(TV)" );
     expect(out[0].brand).toBe("samsung");
     expect(out[0].model).toBe("pe5");
