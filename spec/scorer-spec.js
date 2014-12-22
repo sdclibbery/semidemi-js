@@ -82,4 +82,13 @@ describe("Scorer", function() {
 
   });
 
+  describe("ignore brand and model metadata", function () {
+    var ps1 = [ { brand: "panasonic", model: "pro4" }, { version: "Mozilla/" }, { fuzzy: " (" }, { invariant: "PLAYSTATION 3" }, { fuzzy: "; 1.00)" } ];
+
+    it("ignores metadata", function () {
+      expect(SemiDemi.score( ps1, "Mozilla/5.0 (PLAYSTATION 3; 2.00)" )).toBe(1);
+    });
+
+  });
+
 });
