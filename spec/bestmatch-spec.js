@@ -38,6 +38,14 @@ describe("BestMatch", function() {
       expect(SemiDemi.bestMatch( [ m("abc"), m("def") ], "abcWooHoo" )).toEqual(m("abc"));
     });
 
+    it("second matcher is best", function() {
+      expect(SemiDemi.bestMatch( [ m("abc"), m("def") ], "defWooHoo" )).toEqual(m("def"));
+    });
+
+    it("longer matcher is best", function() {
+      expect(SemiDemi.bestMatch( [ m("def"), m("defdef") ], "defdefWooHoo" )).toEqual(m("defdef"));
+    });
+
   });
 
 });
