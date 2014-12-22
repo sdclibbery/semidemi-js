@@ -64,4 +64,15 @@ describe("BestMatch", function() {
 
   });
 
+  describe("example", function () {
+
+    var m1 = [ { version: "Mozilla/" }, { fuzzy: " (" }, { invariant: "PLAYSTATION 3" }, { fuzzy: "; 1.00" }, { disallowed: "feet" } ];
+    var m2 = [ { version: "Mozilla/" }, { fuzzy: " (" }, { invariant: "PLAYSTATION 3" }, { fuzzy: "; 2.00" }, { disallowed: "feet" } ];
+
+    it("picks the best match", function() {
+      expect(SemiDemi.bestMatch( [ m1, m2 ], "Mozilla/5.0 (PLAYSTATION 3; 2.00)" )).toEqual(m2);
+    });
+
+  });
+
 });
