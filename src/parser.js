@@ -12,15 +12,24 @@ var SemiDemi = (function (SemiDemi) {
   };
 
   var topRegex = /\s*([^\s]+)\s+([^:\s]+)\s*:\s*(.*)/;
+  var partRegex = /[\[\]]/;
+  var invariantRegex = /\+([^\[\]]*)/;
   var parseMatcher = function (line, lineNum) {
     var sections = line.match(topRegex);
     if (!sections) { throw "Syntax Error at top level (brand model:matcher) on line "+lineNum; }
     var brand = sections[1];
     var model = sections[2];
-    return [
-      { brand: brand, model: model },
-      { fuzzy: sections[3] } // Temp
-    ];
+    var result = [ { brand: brand, model: model } ];
+    var matcher = sections[3];
+    var parts = matcher.split(partRegex);
+    if (!parts) { throw "Error: no invariants present on line "+lineNum; }
+    for (var i = 0; i < parts.length; i++) {
+      if (isEmptyLine(parts[i])) { continue; }
+      var invariant = parts[i].match(invariantRegex);
+      if (invariant) { result.push({ invariant: invariant[1] }); }
+      else { result.push({ fuzzy: parts[i] }); }
+    };
+    return result;
   };
 
   var emptyLineRegex = /^\s*$/;

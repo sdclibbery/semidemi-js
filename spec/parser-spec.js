@@ -1,7 +1,7 @@
 describe("Parser", function() {
 
-  it("handles simple fuzzy matcher", function() {
-    expect(SemiDemi.parse("brand model: abc")).toEqual([ [ {brand: "brand", model: "model"}, {fuzzy: "abc"} ] ]);
+  it("handles simple invariant matcher", function() {
+    expect(SemiDemi.parse("brand model: [+abc]")).toEqual([ [ {brand: "brand", model: "model"}, {invariant: "abc"} ] ]);
   });
 
   it("produces no matchers for an empty file", function() {
@@ -9,15 +9,15 @@ describe("Parser", function() {
   });
 
   it("handles various whitespace between sections", function() {
-    expect(SemiDemi.parse("brand \tmodel  \t:\t abc")).toEqual([ [ {brand: "brand", model: "model"}, {fuzzy: "abc"} ] ]);
+    expect(SemiDemi.parse("brand \tmodel  \t:\t [+abc]")).toEqual([ [ {brand: "brand", model: "model"}, {invariant: "abc"} ] ]);
   });
 
   it("handles two simple matchers", function() {
-    expect(SemiDemi.parse("b m:abc\nb m:def")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"} ], [ {brand: "b", model: "m"}, {fuzzy: "def"} ] ]);
+    expect(SemiDemi.parse("b m:[+abc]\nb m:[+def]")).toEqual([ [ {brand: "b", model: "m"}, {invariant: "abc"} ], [ {brand: "b", model: "m"}, {invariant: "def"} ] ]);
   });
 
   it("handles windows CRLF line breaks", function() {
-    expect(SemiDemi.parse("b m:abc\r\nb m:def")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"} ], [ {brand: "b", model: "m"}, {fuzzy: "def"} ] ]);
+    expect(SemiDemi.parse("b m:[+abc]\r\nb m:[+def]")).toEqual([ [ {brand: "b", model: "m"}, {invariant: "abc"} ], [ {brand: "b", model: "m"}, {invariant: "def"} ] ]);
   });
 
   it("reports syntax error", function() {
@@ -25,15 +25,22 @@ describe("Parser", function() {
   });
 
   it("allows comments", function() {
-    expect(SemiDemi.parse("# Rubadub\nb m:abc\n #Bubble\nb m:def")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"} ], [ {brand: "b", model: "m"}, {fuzzy: "def"} ] ]);
+    expect(SemiDemi.parse("# Rubadub\nb m:[+abc]\n #Bubble\nb m:[+def]")).toEqual([ [ {brand: "b", model: "m"}, {invariant: "abc"} ], [ {brand: "b", model: "m"}, {invariant: "def"} ] ]);
   });
 
   it("allows empty lines", function() {
-    expect(SemiDemi.parse("\n\n   \nb m:abc\n\n\n\n\n#h\n\n\nb m:def\n\n\n")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"} ], [ {brand: "b", model: "m"}, {fuzzy: "def"} ] ]);
+    expect(SemiDemi.parse("\n\n   \nb m:[+abc]\n\n\n\n\n#h\n\n\nb m:[+def]\n\n\n")).toEqual([ [ {brand: "b", model: "m"}, {invariant: "abc"} ], [ {brand: "b", model: "m"}, {invariant: "def"} ] ]);
   });
 
-  // Allows empty lines
-  // Invariants
+  it("handles fuzzy", function() {
+    expect(SemiDemi.parse("b m:abc[+def]ghi[+jkl]mno")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"}, {invariant: "def"}, {fuzzy: "ghi"}, {invariant: "jkl"}, {fuzzy: "mno"} ] ]);
+  });
+
+  // Reports matchers with no invariants as errors
+  // Fuzzy
+   // Errors
   // Disallowed
+   // Errors
   // Version
+   // Errors
 });
