@@ -33,11 +33,11 @@ describe("Parser", function() {
   });
 
   it("handles fuzzy", function() {
-    expect(SemiDemi.parse("b m:abc[+def]ghi[+jkl]mno")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"}, {invariant: "def"}, {fuzzy: "ghi"}, {invariant: "jkl"}, {fuzzy: "mno"} ] ]);
+    expect(SemiDemi.parse("b m:abc[+def]ghi[+jkl][+mno]pqr")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"}, {invariant: "def"}, {fuzzy: "ghi"}, {invariant: "jkl"}, {invariant: "mno"}, {fuzzy: "pqr"} ] ]);
   });
 
-  // Reports matchers with no invariants as errors
   // Report unmatched [] as error
+  // Reports matchers with no invariants as errors
   // Disallowed
    // Errors
   // Version
