@@ -20,14 +20,18 @@ var SemiDemi = (function (SemiDemi) {
     var result = [ { brand: brand, model: model } ];
     var matcher = sections[3];
     while (matcher !== "") {
+      // Look for start of marked up section
       var i = matcher.indexOf("[");
       if (i === -1) {
+        // No marked up sections remaining
         result.push({ fuzzy: matcher });
         break;
       } else if (i > 0) {
+        // Add the fuzzy before the marked up section
         result.push({ fuzzy: matcher.substr(0, i) });
-        matcher = matcher.substr(i);
       }
+      matcher = matcher.substr(i);
+      // Look for end of marked up section
       i = matcher.indexOf("]");
       if (i === -1) {
         throw "Syntax Error: Unterminated '[' on line "+lineNum;
