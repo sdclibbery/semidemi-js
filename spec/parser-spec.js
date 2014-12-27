@@ -20,11 +20,15 @@ describe("Parser", function() {
     expect(SemiDemi.parse("b m:abc\r\nb m:def")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"} ], [ {brand: "b", model: "m"}, {fuzzy: "def"} ] ]);
   });
 
+  it("reports syntax error", function() {
+    expect(function () { SemiDemi.parse("bm:abc"); }).toThrow("Syntax Error at top level (brand model:matcher) on line 1");
+  });
+
   it("allows comments", function() {
     expect(SemiDemi.parse("# Rubadub\nb m:abc\n #Bubble\nb m:def")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"} ], [ {brand: "b", model: "m"}, {fuzzy: "def"} ] ]);
   });
 
-  // Reports syntax errors as exceptions
+  // Allows empty lines
   // Invariants
   // Disallowed
   // Version
