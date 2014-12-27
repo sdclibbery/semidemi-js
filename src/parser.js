@@ -2,13 +2,15 @@ var SemiDemi = (function (SemiDemi) {
 
   SemiDemi.parse = function (input) {
     var matchers = [];
-    matchers.push(parseMatcher(input));
+    var result = parseMatcher(input);
+    if (result) { matchers.push(result); }
     return matchers;
   };
 
   var topRegex = /\s*([^\s]+)\s+([^:]+):\s*(.*)/;
   var parseMatcher = function (input) {
     var sections = input.match(topRegex);
+    if (!sections) { return null; }
     var brand = sections[1];
     var model = sections[2];
     return [
