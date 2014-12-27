@@ -20,8 +20,11 @@ describe("Parser", function() {
     expect(SemiDemi.parse("b m:abc\r\nb m:def")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"} ], [ {brand: "b", model: "m"}, {fuzzy: "def"} ] ]);
   });
 
-  // Windows CRLF
-  // Comments
+  it("allows comments", function() {
+    expect(SemiDemi.parse("# Rubadub\nb m:abc\n #Bubble\nb m:def")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"} ], [ {brand: "b", model: "m"}, {fuzzy: "def"} ] ]);
+  });
+
+  // Reports syntax errors as exceptions
   // Invariants
   // Disallowed
   // Version
