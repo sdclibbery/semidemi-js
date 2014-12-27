@@ -28,6 +28,10 @@ describe("Parser", function() {
     expect(SemiDemi.parse("# Rubadub\nb m:abc\n #Bubble\nb m:def")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"} ], [ {brand: "b", model: "m"}, {fuzzy: "def"} ] ]);
   });
 
+  it("allows empty lines", function() {
+    expect(SemiDemi.parse("\n\n   \nb m:abc\n\n\n\n\n#h\n\n\nb m:def\n\n\n")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"} ], [ {brand: "b", model: "m"}, {fuzzy: "def"} ] ]);
+  });
+
   // Allows empty lines
   // Invariants
   // Disallowed
