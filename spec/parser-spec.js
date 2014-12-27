@@ -16,6 +16,10 @@ describe("Parser", function() {
     expect(SemiDemi.parse("b m:abc\nb m:def")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"} ], [ {brand: "b", model: "m"}, {fuzzy: "def"} ] ]);
   });
 
+  it("handles windows CRLF line breaks", function() {
+    expect(SemiDemi.parse("b m:abc\r\nb m:def")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"} ], [ {brand: "b", model: "m"}, {fuzzy: "def"} ] ]);
+  });
+
   // Windows CRLF
   // Comments
   // Invariants
