@@ -2,8 +2,11 @@ var SemiDemi = (function (SemiDemi) {
 
   SemiDemi.parse = function (input) {
     var matchers = [];
-    var result = parseMatcher(input);
-    if (result) { matchers.push(result); }
+    var lines = input.split(/[\r\n]+/);
+    for (var i = 0; i < lines.length; i++) {
+      var result = parseMatcher(lines[i]);
+      if (result) { matchers.push(result); }
+    }
     return matchers;
   };
 
