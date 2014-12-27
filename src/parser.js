@@ -7,7 +7,7 @@ var SemiDemi = (function (SemiDemi) {
     return matchers;
   };
 
-  var topRegex = /\s*([^\s]+)\s+([^:]+):\s*(.*)/;
+  var topRegex = /\s*([^\s]+)\s+([^:\s]+)\s*:\s*(.*)/;
   var parseMatcher = function (input) {
     var sections = input.match(topRegex);
     if (!sections) { return null; }
