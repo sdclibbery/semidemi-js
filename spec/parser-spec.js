@@ -37,8 +37,7 @@ describe("Parser", function() {
   });
 
   // Reports matchers with no invariants as errors
-  // Fuzzy
-   // Errors
+  // Report unmatched [] as error
   // Disallowed
    // Errors
   // Version

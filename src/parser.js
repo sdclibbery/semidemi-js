@@ -12,8 +12,6 @@ var SemiDemi = (function (SemiDemi) {
   };
 
   var topRegex = /\s*([^\s]+)\s+([^:\s]+)\s*:\s*(.*)/;
-  var partRegex = /[\[\]]/;
-  var invariantRegex = /\+([^\[\]]*)/;
   var parseMatcher = function (line, lineNum) {
     var sections = line.match(topRegex);
     if (!sections) { throw "Syntax Error at top level (brand model:matcher) on line "+lineNum; }
@@ -21,14 +19,23 @@ var SemiDemi = (function (SemiDemi) {
     var model = sections[2];
     var result = [ { brand: brand, model: model } ];
     var matcher = sections[3];
-    var parts = matcher.split(partRegex);
-    if (!parts) { throw "Error: no invariants present on line "+lineNum; }
-    for (var i = 0; i < parts.length; i++) {
-      if (isEmptyLine(parts[i])) { continue; }
-      var invariant = parts[i].match(invariantRegex);
-      if (invariant) { result.push({ invariant: invariant[1] }); }
-      else { result.push({ fuzzy: parts[i] }); }
-    };
+    while (matcher !== "") {
+      var i = matcher.indexOf("[");
+      if (i === -1) {
+        result.push({ fuzzy: matcher });
+        break;
+      } else if (i > 0) {
+        result.push({ fuzzy: matcher.substr(0, i) });
+        matcher = matcher.substr(i);
+      }
+      i = matcher.indexOf("]");
+      if (i === -1) {
+        throw "Syntax Error: Unterminated '[' on line "+lineNum;
+      } else {
+        result.push({ invariant: matcher.substr(2, i-2) });
+        matcher = matcher.substr(i+1);
+      }
+    }
     return result;
   };
 
