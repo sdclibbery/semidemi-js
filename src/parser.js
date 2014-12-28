@@ -20,6 +20,7 @@ var SemiDemi = (function (SemiDemi) {
     var result = [ { brand: brand, model: model } ];
     var matcher = sections[3];
     var hasInvariant = false;
+    var type;
     while (matcher !== "") {
       // Look for start of marked up section
       var i = matcher.indexOf("[");
@@ -31,16 +32,19 @@ var SemiDemi = (function (SemiDemi) {
         // Add the fuzzy before the marked up section
         result.push({ fuzzy: matcher.substr(0, i) });
       }
+      type = matcher.substr(i+1, 1);
       matcher = matcher.substr(i);
       // Look for end of marked up section
       i = matcher.indexOf("]");
       if (i === -1) {
         throw "Syntax Error: Unterminated '[' on line "+lineNum;
-      } else {
+      } else if (type === "+") {
         result.push({ invariant: matcher.substr(2, i-2) });
-        matcher = matcher.substr(i+1);
         hasInvariant = true;
+      } else if (type === "-") {
+        result.push({ disallowed: matcher.substr(2, i-2) });
       }
+      matcher = matcher.substr(i+1);
     }
     if (!hasInvariant) { throw "Error: Matcher has no invariants on line "+lineNum; }
     return result;

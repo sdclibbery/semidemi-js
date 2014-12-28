@@ -44,9 +44,10 @@ describe("Parser", function() {
     expect(function () { SemiDemi.parse("b m:abc"); }).toThrow("Error: Matcher has no invariants on line 1");
   });
 
-  // Reports matchers with no invariants as errors
+  it("handles disallowed", function() {
+    expect(SemiDemi.parse("b m:abc[+def][-ghi]")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"}, {invariant: "def"}, {disallowed: "ghi"} ] ]);
+  });
+
   // Disallowed
-   // Errors
   // Version
-   // Errors
 });
