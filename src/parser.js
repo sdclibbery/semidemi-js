@@ -43,6 +43,8 @@ var SemiDemi = (function (SemiDemi) {
         hasInvariant = true;
       } else if (type === "-") {
         result.push({ disallowed: matcher.substr(2, i-2) });
+      } else if (type === "v") {
+        result.push({ version: trimFromEnd(matcher.substr(2, i-2), /[0-9\-_\.]/) });
       } else {
         throw "Syntax Error: Invalid markup '["+type+"...]' on line "+lineNum;
       }
@@ -50,6 +52,11 @@ var SemiDemi = (function (SemiDemi) {
     }
     if (!hasInvariant) { throw "Error: Matcher has no invariants on line "+lineNum; }
     return result;
+  };
+
+  var trimFromEnd = function (value, toTrim) {
+    while (value[value.length-1].match(toTrim)) { value = value.substr(0, value.length-1); }
+    return value;
   };
 
   var emptyLineRegex = /^\s*$/;

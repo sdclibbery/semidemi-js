@@ -44,7 +44,7 @@ describe("Parser", function() {
     expect(function () { SemiDemi.parse("b m:abc"); }).toThrow("Error: Matcher has no invariants on line 1");
   });
 
-  it("handles disallowed", function() {
+  it("handles disallowed markup", function() {
     expect(SemiDemi.parse("b m:abc[+def][-ghi]")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"}, {invariant: "def"}, {disallowed: "ghi"} ] ]);
   });
 
@@ -52,6 +52,8 @@ describe("Parser", function() {
     expect(function () { SemiDemi.parse("b m:a[!bc]"); }).toThrow("Syntax Error: Invalid markup '[!...]' on line 1");
   });
 
-  // Invalid markup eg [!...]
-  // Version
+  it("handles version markup", function() {
+    expect(SemiDemi.parse("b m:[+abc][vdef - 1.2-3_4]")).toEqual([ [ {brand: "b", model: "m"}, {invariant: "abc"}, {version: "def - "} ] ]);
+  });
+
 });
