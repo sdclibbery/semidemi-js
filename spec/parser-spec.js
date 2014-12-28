@@ -40,7 +40,10 @@ describe("Parser", function() {
     expect(function () { SemiDemi.parse("b m:a[+bc"); }).toThrow("Syntax Error: Unterminated '[' on line 1");
   });
 
-  // Report unmatched [] as error
+  it("reports error for matcher with no invariants", function() {
+    expect(function () { SemiDemi.parse("b m:abc"); }).toThrow("Error: Matcher has no invariants on line 1");
+  });
+
   // Reports matchers with no invariants as errors
   // Disallowed
    // Errors

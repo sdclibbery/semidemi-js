@@ -19,6 +19,7 @@ var SemiDemi = (function (SemiDemi) {
     var model = sections[2];
     var result = [ { brand: brand, model: model } ];
     var matcher = sections[3];
+    var hasInvariant = false;
     while (matcher !== "") {
       // Look for start of marked up section
       var i = matcher.indexOf("[");
@@ -38,8 +39,10 @@ var SemiDemi = (function (SemiDemi) {
       } else {
         result.push({ invariant: matcher.substr(2, i-2) });
         matcher = matcher.substr(i+1);
+        hasInvariant = true;
       }
     }
+    if (!hasInvariant) { throw "Error: Matcher has no invariants on line "+lineNum; }
     return result;
   };
 
