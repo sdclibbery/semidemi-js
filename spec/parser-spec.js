@@ -48,6 +48,10 @@ describe("Parser", function() {
     expect(SemiDemi.parse("b m:abc[+def][-ghi]")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"}, {invariant: "def"}, {disallowed: "ghi"} ] ]);
   });
 
-  // Disallowed
+  it("reports error for invalid markup type", function() {
+    expect(function () { SemiDemi.parse("b m:a[!bc]"); }).toThrow("Syntax Error: Invalid markup '[!...]' on line 1");
+  });
+
+  // Invalid markup eg [!...]
   // Version
 });

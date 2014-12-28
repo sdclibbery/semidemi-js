@@ -43,6 +43,8 @@ var SemiDemi = (function (SemiDemi) {
         hasInvariant = true;
       } else if (type === "-") {
         result.push({ disallowed: matcher.substr(2, i-2) });
+      } else {
+        throw "Syntax Error: Invalid markup '["+type+"...]' on line "+lineNum;
       }
       matcher = matcher.substr(i+1);
     }
