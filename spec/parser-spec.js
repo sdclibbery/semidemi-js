@@ -36,6 +36,10 @@ describe("Parser", function() {
     expect(SemiDemi.parse("b m:abc[+def]ghi[+jkl][+mno]pqr")).toEqual([ [ {brand: "b", model: "m"}, {fuzzy: "abc"}, {invariant: "def"}, {fuzzy: "ghi"}, {invariant: "jkl"}, {invariant: "mno"}, {fuzzy: "pqr"} ] ]);
   });
 
+  it("reports syntax error for unmatched bracket", function() {
+    expect(function () { SemiDemi.parse("b m:a[+bc"); }).toThrow("Syntax Error: Unterminated '[' on line 1");
+  });
+
   // Report unmatched [] as error
   // Reports matchers with no invariants as errors
   // Disallowed
