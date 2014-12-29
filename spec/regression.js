@@ -42,7 +42,7 @@ var runTest = function (i) {
     return;
   }
   var actual = result[0].brand+"_"+result[0].model;
-  if (expected.toLowerCase() === actual.toLowerCase()) {
+  if (expected === actual) {
     logDirect("results", ". ");
   } else {
     logDirect("results", "x ");
