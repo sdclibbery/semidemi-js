@@ -22,6 +22,7 @@ log("info", matchers.length + " matchers; " + tests.length + " tests");
 
 // Run the tests
 var slowest = 0;
+var failures = 0;
 var runTest = function (i) {
   var expected = tests[i].wurfl_id;
 
@@ -38,6 +39,7 @@ var runTest = function (i) {
     var msg = "**No match found*/* for: "+tests[i].uagent;
     msg += "\n> Expected: "+expected+"";
     log("errors", msg);
+    failures++;
     return;
   }
   var actual = result[0].brand+"_"+result[0].model;
@@ -51,6 +53,7 @@ var runTest = function (i) {
       msg += "\n> Actual: "+actual;
     }
     log("errors", msg);
+    failures++;
   }
 }
 
@@ -63,6 +66,11 @@ var executeTest = function () {
   if (testNumber < tests.length) {
     setTimeout(executeTest, 0);
   } else {
+    if (failures == 0) {
+      log("results", "**ALL TESTS PASSED*/*");
+    } else {
+      log("results", "**"+failures+" TEST(S) FAILED*/*");
+    }
     log("results", "Slowest test: "+slowestId+" Took: "+slowest+"ms");
   }
 }
