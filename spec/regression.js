@@ -22,8 +22,16 @@ var matchers = SemiDemi.parse(demiFile);
 log("info", "Loaded " + matchers.length + " matchers");
 
 // Run the tests
+var slowest = 0;
 var runTest = function (i) {
+
+  var before = Date.now();
   var result = SemiDemi.bestMatch(matchers, tests[i].uagent);
+  var timeTaken = Date.now() - before;
+  if (timeTaken > slowest) {
+    slowest = timeTaken;
+  }
+
   var expected = tests[i].wurfl_id;
   if (!result) {
     logDirect("results", "x ");
@@ -54,6 +62,8 @@ var executeTest = function () {
   }
   if (testNumber < tests.length) {
     setTimeout(executeTest, 0);
+  } else {
+    log("results", "Slowest test: "+slowest+"ms");
   }
 }
 var testNumber = 0;
