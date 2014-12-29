@@ -15,11 +15,10 @@ var log = function (type, str) { logDirect(type, "<p>"+escapeHtml(str)+"</p>"); 
 
 
 log("info", "**SemiDemi regression tests*/*");
-log("info", "Loaded " + tests.length + " tests");
 
 // Parse demi file
 var matchers = SemiDemi.parse(demiFile);
-log("info", "Loaded " + matchers.length + " matchers");
+log("info", matchers.length + " matchers; " + tests.length + " tests");
 
 // Run the tests
 var slowest = 0;
