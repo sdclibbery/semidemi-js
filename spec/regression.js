@@ -5,12 +5,16 @@ var escapeHtml = function (unsafe) {
        .replace(/</g, "&lt;")
        .replace(/>/g, "&gt;")
        .replace(/"/g, "&quot;")
-       .replace(/'/g, "&#039;");
+       .replace(/'/g, "&#039;")
+       .replace(/\*\*/g, "<b>")
+       .replace(/\*\/\*/g, "</b>")
+       .replace(/\n/g, "<br />");
 }
 var logDirect = function (type, str) { document.getElementById(type).innerHTML += str; };
 var log = function (type, str) { logDirect(type, "<p>"+escapeHtml(str)+"</p>"); };
 
 
+log("info", "**SemiDemi regression tests*/*");
 log("info", "Loaded " + tests.length + " tests");
 
 // Parse demi file
@@ -23,8 +27,8 @@ var runTest = function (i) {
   var expected = tests[i].wurfl_id;
   if (!result) {
     logDirect("results", "x ");
-    var msg = "No match found for: "+tests[i].uagent;
-    msg += "       Expected: "+expected+"";
+    var msg = "**No match found*/* for: "+tests[i].uagent;
+    msg += "\n> Expected: "+expected+"";
     log("errors", msg);
     return;
   }
@@ -33,10 +37,10 @@ var runTest = function (i) {
     logDirect("results", ". ");
   } else {
     logDirect("results", "x ");
-    var msg = "FAIL: "+tests[i].uagent;
+    var msg = "**FAIL*/*: "+tests[i].uagent;
     if (result) {
-      msg += "     Expected: "+expected;
-      msg += "     Actual: "+actual;
+      msg += "\n> Expected: "+expected;
+      msg += "\n> Actual: "+actual;
     }
     log("errors", msg);
   }
@@ -54,8 +58,5 @@ var executeTest = function () {
 }
 var testNumber = 0;
 setTimeout(executeTest, 0);
-
-
-// Output the results
 
 
