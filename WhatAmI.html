@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>SemiDemi WhatAmI</title>
+
+  <script type="text/javascript" src="tvs.demi.js"></script>
+
+  <script type="text/javascript" src="src/matcher.js"></script>
+  <script type="text/javascript" src="src/scorer.js"></script>
+  <script type="text/javascript" src="src/bestmatch.js"></script>
+  <script type="text/javascript" src="src/parser.js"></script>
+  <script type="text/javascript" src="src/identify.js"></script>
+
+
+</head>
+
+<body>
+  <div id="info"></div>
+</body>
+
+<script type="text/javascript">
+
+var escapeHtml = function (unsafe) {
+  return unsafe
+       .replace(/&/g, "&amp;")
+       .replace(/</g, "&lt;")
+       .replace(/>/g, "&gt;")
+       .replace(/"/g, "&quot;")
+       .replace(/'/g, "&#039;")
+       .replace(/\*\*/g, "<b>")
+       .replace(/\*\/\*/g, "</b>")
+       .replace(/\n/g, "<br />");
+}
+var logDirect = function (type, str) { document.getElementById(type).innerHTML += str; };
+var log = function (type, str) { logDirect(type, "<p>"+escapeHtml(str)+"</p>"); };
+
+log("info", "**SemiDemi What Am I test page*/*");
+
+var match = SemiDemi.identify();
+if (match) {
+  log("info", "**I am a:*/* "+SemiDemi.matcherToId(match));
+} else {
+  log("info", "**No match found :-(*/* ");
+}
+
+log("info", "User agent: "+navigator.userAgent);
+
+var showMatcher = function (matcher) {
+  if (!matcher) { return ""; }
+  var result = "";
+  for (var i = 0; i < matcher.length; i++) {
+    if (matcher[i].fuzzy) { result += matcher[i].fuzzy; }
+    if (matcher[i].invariant) { result += "[+"+matcher[i].invariant+"]"; }
+    if (matcher[i].version) { result += "[v"+matcher[i].version+"000]"; }
+    if (matcher[i].disallowed) { result += "[-"+matcher[i].disallowed+"]"; }
+  }
+  return result;
+};
+
+log("info", "Matched with: "+showMatcher(match));
+
+</script>
+</html>
