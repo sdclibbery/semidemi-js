@@ -37,12 +37,16 @@ var log = function (type, str) { logDirect(type, "<p>"+escapeHtml(str)+"</p>"); 
 
 log("info", "**SemiDemi What Am I test page*/*");
 
+var before = Date.now();
 var match = SemiDemi.identify();
+var timeTaken = Date.now() - before;
 if (match) {
   log("info", "**I am a:*/* "+SemiDemi.matcherToId(match));
 } else {
   log("info", "**No match found :-(*/* ");
 }
+
+log("info", "Time taken to identify me: "+timeTaken+"ms");
 
 log("info", "User agent: "+navigator.userAgent);
 
