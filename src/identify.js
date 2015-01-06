@@ -1,6 +1,8 @@
 var SemiDemi = (function (SemiDemi) {
 
+  var before = Date.now();
   var matchers = SemiDemi.parse(demiFile);
+  SemiDemi.timeTakenToParseDemiFile = Date.now() - before;
 
   // Identify the current device.
   // Pass the user agent string if its known, or leave blank (in client browser) to extract UA from navigator object.

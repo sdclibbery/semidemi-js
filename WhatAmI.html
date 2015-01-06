@@ -41,12 +41,12 @@ var before = Date.now();
 var match = SemiDemi.identify();
 var timeTaken = Date.now() - before;
 if (match) {
-  log("info", "**I am a:*/* "+SemiDemi.matcherToId(match));
+  log("info", "I am a: **"+SemiDemi.matcherToId(match)+"*/*");
 } else {
   log("info", "**No match found :-(*/* ");
 }
 
-log("info", "Time taken to identify me: "+timeTaken+"ms");
+log("info", "Time taken to identify me: **"+timeTaken+"ms*/* (not including the time required to parse demi file)");
 
 log("info", "User agent: "+navigator.userAgent);
 

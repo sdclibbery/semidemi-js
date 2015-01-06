@@ -17,8 +17,12 @@ var log = function (type, str) { logDirect(type, "<p>"+escapeHtml(str)+"</p>"); 
 log("info", "**SemiDemi regression tests*/*");
 
 // Parse demi file
+var before = Date.now();
 var matchers = SemiDemi.parse(demiFile);
+var timeTakenToParseDemiFile = Date.now() - before;
 log("info", matchers.length + " matchers; " + tests.length + " tests");
+log("info", "Time taken to parse demi file: "+timeTakenToParseDemiFile+"ms");
+
 
 // Run the tests
 var slowest = 0;
