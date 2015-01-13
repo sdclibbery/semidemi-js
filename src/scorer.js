@@ -35,6 +35,7 @@ var SemiDemi = (function (SemiDemi) {
   };
 
   var editDistance = function (a, b) {
+    // This algorithm sourced from: https://gist.github.com/andrei-m/982927
     if(a.length === 0) return b.length; 
     if(b.length === 0) return a.length; 
    
