@@ -8,7 +8,7 @@ var SemiDemi = (function (SemiDemi) {
   // fuzzy: a string that can be approximately matched. The closer the match, the more likely this matcher is to be chosen as best.
   // disallowed: a string that must _not_ be present in the ua for it to match
   // version: a string prefix that will be followed by a version number. The version number will be ignored in matching.
-  // There can also be an element in the matcher with 'brand' and 'model' properties that can be used as metadata.
+  // The first element in the matcher can be an object with 'brand' and 'model' properties to be used as metadata.
   SemiDemi.bestMatch = function (matchers, ua) {
     var matching = filterMatching(matchers, ua);
     if (matching.length === 1) {
