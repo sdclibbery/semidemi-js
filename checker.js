@@ -13,13 +13,15 @@ function semidemi (ua) {
 
 function demi (ua, succ, err) {
   var options = {
-    host: 'pal.sandbox.dev.bbc.co.uk',
-    path: 'frameworks/test/demi/php',
-    headers: {'user-agent': ua},
+    host: 'www.test.bbc.co.uk',
+    path: '/frameworks/test/demi/php',
+    headers: {'user-agent': ua}
   };
   http.get(options, function(res) {
     if (res.statusCode === 200) {
-      succ(res.body);
+      res.on("data", function (data) {
+        succ(data);
+      });
     } else {
       err("response: "+res.statusCode);
     }
@@ -30,14 +32,13 @@ function demi (ua, succ, err) {
 
 function testUA (ua, done) {
   demi(ua, function (demi) {
-    // Getting 400's for everything from demi :-(
     // Need to parse the demi response HTML to find brand and model
     // Need to make semidemi() work
     if (semidemi(ua) === demi) {
       process.stdout.write(".");
     } else {
       process.stdout.write("x");
-      console.log("FAILED: " + ua + "\nSemiDemi:  " + semidemi + "\nDemi: " + demi);
+      console.log("FAILED: " + ua + "\nSemiDemi:  " + semidemi(ua) + "\nDemi: " + demi);
     }
     done();
   }, function (err) {
