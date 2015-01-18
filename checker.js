@@ -3,6 +3,20 @@ var fs = require('fs');
 
 console.log("SemiDemi Checker");
 
+function downloadFile (options, succ, err) {
+  http.get(options).on('response', function (response) {
+    var body = '';
+    response.on('data', function (chunk) {
+      body += chunk;
+    });
+    response.on('end', function () {
+      succ(body);
+    });
+  }).on('error', function(e) {
+    err(e.message);
+  });;
+}
+
 function semidemi (ua) {
 /*
   var result = SemiDemi.bestMatch(matchers, tests[i].uagent);
@@ -11,27 +25,26 @@ function semidemi (ua) {
 */
 }
 
+function parseDemi (response) {
+  var brand = response.match(/<dt>brand<\/dt>\s*<dd><span class=\"string\">([^<]+)<\/span><\/dd>/)[1];
+  var model = response.match(/<dt>model<\/dt>\s*<dd><span class=\"string\">([^<]+)<\/span><\/dd>/)[1];
+  return brand.toLowerCase()+"_"+model.toLowerCase();
+}
+
 function demi (ua, succ, err) {
   var options = {
     host: 'www.test.bbc.co.uk',
     path: '/frameworks/test/demi/php',
     headers: {'user-agent': ua}
   };
-  http.get(options, function(res) {
-    if (res.statusCode === 200) {
-      res.on("data", function (data) {
-        succ(data);
-      });
-    } else {
-      err("response: "+res.statusCode);
-    }
-  }).on('error', function(e) {
-    err(e.message);
-  });
+  downloadFile(options, function (data) {
+    succ(parseDemi(data.toString()));
+  }, err);
 }
 
 function testUA (ua, done) {
   demi(ua, function (demi) {
+process.stdout.write(demi);
     // Need to parse the demi response HTML to find brand and model
     // Need to make semidemi() work
     if (semidemi(ua) === demi) {
