@@ -44,19 +44,17 @@ function demi (ua, succ, err) {
 
 function testUA (ua, done) {
   demi(ua, function (demi) {
-process.stdout.write(demi);
-    // Need to parse the demi response HTML to find brand and model
     // Need to make semidemi() work
     if (semidemi(ua) === demi) {
       process.stdout.write(".");
     } else {
       process.stdout.write("x");
-      console.log("FAILED: " + ua + "\nSemiDemi:  " + semidemi(ua) + "\nDemi: " + demi);
+      console.log("\nFAILED: " + ua + "\nSemiDemi:  " + semidemi(ua) + "\nDemi: " + demi);
     }
     done();
   }, function (err) {
     process.stdout.write("e");
-    console.log("ERROR: " + ua + "\nDemi error: " + err);
+    console.log("\nERROR: " + ua + "\nDemi error: " + err);
     done();
   });
 }
@@ -71,7 +69,7 @@ function runTests (uas) {
       if (i < lines.length) {
         doNextTest();
       } else {
-        console.log("Finished.");
+        console.log("Finished");
       }
     });
   };
