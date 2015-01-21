@@ -1,6 +1,11 @@
 var http = require('http');
 var fs = require('fs');
 
+eval(fs.readFileSync('./src/parser.js', 'utf8'));
+eval(fs.readFileSync('./src/matcher.js', 'utf8'));
+eval(fs.readFileSync('./src/scorer.js', 'utf8'));
+eval(fs.readFileSync('./src/bestmatch.js', 'utf8'));
+
 console.log("SemiDemi Checker");
 
 function downloadFile (options, succ, err) {
@@ -17,18 +22,19 @@ function downloadFile (options, succ, err) {
   });;
 }
 
+
+var matchers = SemiDemi.parse(fs.readFileSync('./tvs.demi', 'utf8'));
+
 function semidemi (ua) {
-/*
-  var result = SemiDemi.bestMatch(matchers, tests[i].uagent);
+  var result = SemiDemi.bestMatch(matchers, ua);
   if (!result) { return; }
   return result[0].brand+"_"+result[0].model;
-*/
 }
 
 function parseDemi (response) {
   var brand = response.match(/<dt>brand<\/dt>\s*<dd><span class=\"string\">([^<]+)<\/span><\/dd>/)[1];
   var model = response.match(/<dt>model<\/dt>\s*<dd><span class=\"string\">([^<]+)<\/span><\/dd>/)[1];
-  return brand.toLowerCase()+"_"+model.toLowerCase();
+  return (brand.toLowerCase()+"_"+model.toLowerCase()).replace(' ', '_');
 }
 
 function demi (ua, succ, err) {
@@ -77,18 +83,4 @@ function runTests (uas) {
 }
 
 
-fs.readFile('testdata/uas_28days_31Dec2014.txt', function (err, data) {
-  runTests(data.toString());
-});
-
-
-
-
-
-
-
-
-
-
-
-
+runTests(fs.readFileSync('testdata/checker_uas.txt', 'utf8'));
