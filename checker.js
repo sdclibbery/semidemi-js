@@ -24,17 +24,20 @@ function downloadFile (options, succ, err) {
 
 
 var matchers = SemiDemi.parse(fs.readFileSync('./tvs.demi', 'utf8'));
+var normaliseDemiValue = function (v) {
+  return v.toLowerCase().replace(/[^a-z0-9]/g, "_");
+}
 
 function semidemi (ua) {
   var result = SemiDemi.bestMatch(matchers, ua);
   if (!result) { return; }
-  return result[0].brand+"_"+result[0].model;
+  return result[0].brand+"-"+result[0].model;
 }
 
 function parseDemi (response) {
   var brand = response.match(/<dt>brand<\/dt>\s*<dd><span class=\"string\">([^<]+)<\/span><\/dd>/)[1];
   var model = response.match(/<dt>model<\/dt>\s*<dd><span class=\"string\">([^<]+)<\/span><\/dd>/)[1];
-  return (brand.toLowerCase()+"_"+model.toLowerCase()).replace(' ', '_');
+  return normaliseDemiValue(brand) + "-" + normaliseDemiValue(model);
 }
 
 function demi (ua, succ, err) {
@@ -50,12 +53,11 @@ function demi (ua, succ, err) {
 
 function testUA (ua, done) {
   demi(ua, function (demi) {
-    // Need to make semidemi() work
     if (semidemi(ua) === demi) {
       process.stdout.write(".");
     } else {
       process.stdout.write("x");
-      console.log("\nFAILED: " + ua + "\nSemiDemi:  " + semidemi(ua) + "\nDemi: " + demi);
+      console.log("\nFAILED: " + ua + "\nSemiDemi:  " + semidemi(ua) + "\nDemi    : " + demi);
     }
     done();
   }, function (err) {
