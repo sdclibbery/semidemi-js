@@ -109,50 +109,50 @@ lg tv_2011: Mozilla/5.0 (DirectFB; U; Linux 35230; en) AppleWebKit/531.2 (KHTML,
 
 # 2012
 
-lg blueberry_tv_2012_l9: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ HbbTV/1.1.1 ( [+;LGE] ;NetCast 3.0 ;1.0 [+;1.0L] ;)
-lg blueberry_tv_2012_mtk: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ HbbTV/1.1.1 ( [+;LGE] ;NetCast 3.0 ;1.0 [+;1.0M] ;)
-lg netcast_bluray_2012: Mozilla/5.0 (DirectFB; Linux armv7l) avdn/LG Media/BH9520 BLURAY DUMMY [+LG UA] MATCHED IN BBC-WURFL LGTVMATCHER.JAVA
-lg netcast_bluray_2012: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+Media/B]H9520; 05.00.54; 0x00000001;); [+LG NetCast.Media-2012]
-lg netcast_bluray_2012: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+Media/B]H9520; 05.00.54; 0x00000001;); [+LG NetCast.TV-2012]
-lg netcast_bluray_2012: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/LG.Media-2010 LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; LGE; [+Media/B]H6220S; 9876; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/LG.Media-2010 LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; LGE; [+Media/B]B5521A; 9876; abc;); [+LG NetCast.Media-2011]
-lg netcast_tv_2012_derivative_models: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.0.00(+mouse+3D+SCREEN+TUNER; LGE; [+GLOBAL-PLAT4]; 09.00.00; 0x00000001;); [+LG NetCast.TV-2012]
-lg netcast_tv_2012_derivative_models: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+DERVATIVE_MODEL_UA]; 09.00.07; 0x00000001;); [+LG NetCast.TV-2012]
-lg netcast_bluray_2012_bb5520a: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BB5520A]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bb5521a: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BB5521A]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh5320f: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH5320F]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh6220c: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH6220C]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh6220s: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH6220S]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh6320c: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH6320C]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh6420p: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH6420P]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh6520t: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH6520T]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh6620p: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH6620P]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh6620s: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH6620S]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh6620t: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH6620T]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh7220b: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH7220B]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh7220c: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH7220C]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh7420p: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH7420P]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh7520t: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH7520T]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh8220b: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH8220B]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh8220c: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH8220C]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh9220b: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH9220B]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh9220c: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH9220C]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh9420p: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH9420P]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh9520t: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH9520T]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bh9520tw: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH9520T]W; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bp420: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BP420]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bp520: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BP520]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_2012_bp620: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BP620]; 7549; abc;); [+LG NetCast.Media-2011]
-lg netcast_mediastreamer_2012: Mozilla/5.0 (DirectFB; Linux armv7l) avdn/LG SP890 [+MEDIASTREAMER] DUMMY [+LG UA] MATCHED IN BBC-WURFL LGTVMATCHER.JAVA
-lg netcast_mediastreamer_2012: FAIL (191): Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+PORTAL_KEY+SCREEN+TUNER; LGE; [+SP]820; 07.00.05; 0x00000001;); [+LG NetCast.TV-2012]
+lg l9_tv_2012: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ HbbTV/1.1.1 ( [+;LGE] ;NetCast 3.0 ;1.0 [+;1.0L] ;)
+lg mtk_tv_2012: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ HbbTV/1.1.1 ( [+;LGE] ;NetCast 3.0 ;1.0 [+;1.0M] ;)
+lg bluray_2012: Mozilla/5.0 (DirectFB; Linux armv7l) avdn/LG Media/BH9520 BLURAY DUMMY [+LG UA] MATCHED IN BBC-WURFL LGTVMATCHER.JAVA
+lg bluray_2012: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+Media/B]H9520; 05.00.54; 0x00000001;); [+LG NetCast.Media-2012]
+lg bluray_2012: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+Media/B]H9520; 05.00.54; 0x00000001;); [+LG NetCast.TV-2012]
+lg bluray_2012: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/LG.Media-2010 LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; LGE; [+Media/B]H6220S; 9876; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/LG.Media-2010 LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; LGE; [+Media/B]B5521A; 9876; abc;); [+LG NetCast.Media-2011]
+lg tv_2012_derivative_models: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.0.00(+mouse+3D+SCREEN+TUNER; LGE; [+GLOBAL-PLAT4]; 09.00.00; 0x00000001;); [+LG NetCast.TV-2012]
+lg tv_2012_derivative_models: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+DERVATIVE_MODEL_UA]; 09.00.07; 0x00000001;); [+LG NetCast.TV-2012]
+lg bluray_2012_bb5520a: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BB5520A]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bb5521a: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BB5521A]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh5320f: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH5320F]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh6220c: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH6220C]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh6220s: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH6220S]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh6320c: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH6320C]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh6420p: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH6420P]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh6520t: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH6520T]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh6620p: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH6620P]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh6620s: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH6620S]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh6620t: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH6620T]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh7220b: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH7220B]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh7220c: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH7220C]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh7420p: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH7420P]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh7520t: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH7520T]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh8220b: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH8220B]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh8220c: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH8220C]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh9220b: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH9220B]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh9220c: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH9220C]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh9420p: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH9420P]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh9520t: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH9520T]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bh9520tw: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH9520T]W; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bp420: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BP420]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bp520: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BP520]; 7549; abc;); [+LG NetCast.Media-2011]
+lg bluray_2012_bp620: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BP620]; 7549; abc;); [+LG NetCast.Media-2011]
+lg mediastreamer_2012: Mozilla/5.0 (DirectFB; Linux armv7l) avdn/LG SP890 [+MEDIASTREAMER] DUMMY [+LG UA] MATCHED IN BBC-WURFL LGTVMATCHER.JAVA
+lg mediastreamer_2012: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+PORTAL_KEY+SCREEN+TUNER; LGE; [+SP]820; 07.00.05; 0x00000001;); [+LG NetCast.TV-2012]
 lg netcast_tv_2012: [+GStreamer souphttpsrc] (compatible; [+LG NetCast.TV-2012])
-lg netcast_tv_2012_5: Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2+ (KHTML, like Gecko, Safari/531.2+); LG Browser/4.0.9(+mouse+3D+SCREEN+TUNER; [+LGE;] 42LE7500-ZA; 03.05.04; 0x00000001;); [+LG NetCast.TV-2011]
+lg tv_2012: Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2+ (KHTML, like Gecko, Safari/531.2+); LG Browser/4.0.9(+mouse+3D+SCREEN+TUNER; [+LGE;] 42LE7500-ZA; 03.05.04; 0x00000001;); [+LG NetCast.TV-2011]
 lg netcast_tv_2012_derivative_models: Mozilla/5.0 (DirectFB; Linux armv7l) avdn/LG DEVELOPMENT AND DERIVATIVE MODELS DUMMY [+LG UA] MATCHED IN BBC-WURFL LGTVMATCHER.JAVA [+LG NetCast.TV-2012]
-lg netcast_tv_2012_highend: Mozilla/5.0 (DirectFB; Linux armv7l) avdn/LG 72LM950V-ZA [+HIGHEND] DUMMY [+LG UA] MATCHED IN BBC-WURFL LGTVMATCHER.JAVA
-lg netcast_tv_2012_highend: [+LM][+V-Z][+LG NetCast.TV-2012]
-lg netcast_tv_2012_midrange: Mozilla/5.0 (DirectFB; Linux armv7l) avdn/LG 55LM760T-ZB [+MIDRANGE] DUMMY [+LG UA] MATCHED IN BBC-WURFL LGTVMATCHER.JAVA
-lg netcast_tv_2012_midrange: [+LS][+T-Z][+LG NetCast.TV-2012]
-lg netcast_tv_2012_midrange: [+LM][+T-Z][+LG NetCast.TV-2012]
+lg tv_2012_highend: Mozilla/5.0 (DirectFB; Linux armv7l) avdn/LG 72LM950V-ZA [+HIGHEND] DUMMY [+LG UA] MATCHED IN BBC-WURFL LGTVMATCHER.JAVA
+lg tv_2012_highend: [+LM][+V-Z][+LG NetCast.TV-2012]
+lg tv_2012_midrange: Mozilla/5.0 (DirectFB; Linux armv7l) avdn/LG 55LM760T-ZB [+MIDRANGE] DUMMY [+LG UA] MATCHED IN BBC-WURFL LGTVMATCHER.JAVA
+lg tv_2012_midrange: [+LS][+T-Z][+LG NetCast.TV-2012]
+lg tv_2012_midrange: [+LM][+T-Z][+LG NetCast.TV-2012]
 
 # 2013
 
@@ -344,7 +344,7 @@ philips bdp5200: Opera/10.60 ([+Linux armv6l ; U; CE-HTML/1.0 NETTV/3.0.1;; en])
 philips philips_bdp_2010: Opera/9.70 (Linux armv6l ; U; CE-HTML/1.0 (<profilelist><ui_profilename="[+PHILIPS_OLS_2010]"/></profilelist>); en) Presto/2.2.1
 philips hdsp_pvr_2012: [+SAGEMCOM]/2.0 [+HDSP]
 philips hmp7000_bluray_2012: Opera/9.80 (Linux armv7l; U; CE-HTML/1.0 NETTV/3.0.1; [+PHILIPS-AVM-2012]; en) Presto/2.10.250. Version/11.60
-philips tv_2012: Opera/9.80 (Linux mips ; U; HbbTV/1.1.1 (; [+Philips;] ; ; ; ) CE-HTML/1.0 NETTV/4.1.1; en) Presto/2.6.33 Version/10.70
+philips 2012_tv: Opera/9.80 (Linux mips ; U; HbbTV/1.1.1 (; [+Philips;] ; ; ; ) CE-HTML/1.0 NETTV/4.1.1; en) Presto/2.6.33 Version/10.70
 philips tv_2012v2: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; [+Philips;] ; ; ; ) CE-HTML/1.0 NETTV/4.0.1; en) Presto/2.10.250 Version/11.60
 philips tv_2013_fusion_v2: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; [+Philips;];;;) CE-HTML/1.0 NETTV/4.0.2 [+PHILIPSTV/]1.1.1; en) Presto/2.10.250 Version/11.60
 philips tv_2013_fusion_v3: Opera/9.80 (Linux mips; HbbTV/1.2.1 (; [+Philips; ; ; ; ]) CE-HTML/1.0 NETTV/4.3.0 [+PHILIPSTV/]1.1.1 Firmware/173.42.0 (PhilipsTV, 1.1.1,) en) Presto/2.12.362 Version/12.11
@@ -553,7 +553,7 @@ vestel tv_2013_crb: Opera/9.80 (Linux mips;) Presto/2.12.407 Version/12.50 (avkb
 
 view21 vw11fvrhd: Mozilla/5.0 (compatible; ANTGalio/3.2.0.25.01.devel.46723MU; Linux2.6.32.16-svn17678_stm24_0205-SDK7105_7105-STSDK/sh4; [+VW11FVRHD])
 view21 vw11fvrhd: Mozilla/5.0 (compatible; ANTGalio/3.2.0; Linux2.6.32.16/sh4; [+GV101YRH])
-
+view21 vw11fvrhd: Mozilla/5.0 (compatible; ANTGalio/3.2.0; Linux2.6.32.16/sh4; [+VW11FVRHD])
 
 ########
 # Western Digital
