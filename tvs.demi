@@ -47,13 +47,7 @@ bang_and_olufsen tv_2012_crb: Opera/9.80 (Linux i686; [+HbbTV]/1.1.1 (+PVR; [+BA
 ########
 
 bt_vision dps_1000_legacy: Mozilla/5.0 (avdn/[+bt_cardinal.stb.2011]; avkb/pc,B:1572866; avvp/ssl; avui/tv;avrt/cehtml; avst/off; Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.13) CE-HTML/1.0 [+OreganMediaBrowser]/4.21.3 Gecko/20080311 Firefox/2.0.0.13
-bt_vision dps_1000: Mozilla/5.0 (avdn/[+bt_cardinal.stb.2011]; avkb/pc,B:1572866; avvp/ssl; avui/tv; avrt/cehtml; avst/off; Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.13) CE-HTML/1.0 [+BT-Cardinal-G2512/4.30.1]
-bt_vision dps_1000: Mozilla/5.0 (avdn/[+bt_cardinal.stb.2011]; avkb/pc,B:1572866; avvp/ssl; avui/tv; avrt/cehtml; avst/off; Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.13) CE-HTML/1.0 [+BT-Cardinal-G2512/4.30.2]
-bt_vision dps_1000: Mozilla/5.0 (avdn/[+bt_cardinal.stb.2011]; avkb/pc,B:1572866; avvp/ssl; avui/tv; avrt/cehtml; avst/off; Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.13) CE-HTML/1.0 [+BT-Cardinal-G2256/4.30.]2
-bt_vision dps_1000: Mozilla/5.0 (avdn/[+bt_cardinal.stb.2011]; avkb/pc,B:1572866; avvp/ssl; avui/tv; avrt/cehtml; avst/off; Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.13) CE-HTML/1.0 [+BT-Cardinal-G21024/4.30.]2
-bt_vision dps_1000: Mozilla/5.0 (avdn/[+bt_cardinal.stb.2011]; avkb/pc,B:1572866; avvp/ssl; avui/tv; avrt/cehtml; avst/off; Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.13) CE-HTML/1.0 [+BT-Cardinal-G2512/4.30.3]
-bt_vision dps_1000: Mozilla/5.0 (avdn/[+bt_cardinal.stb.2011]; avkb/pc,B:1572866; avvp/ssl; avui/tv; avrt/cehtml; avst/off; Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.13) CE-HTML/1.0 [+BT-Cardinal-G2256/4.30.3]
-bt_vision dps_1000: Mozilla/5.0 (avdn/[+bt_cardinal.stb.2011]; avkb/pc,B:1572866; avvp/ssl; avui/tv; avrt/cehtml; avst/off; Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.13) CE-HTML/1.0 [+BT-Cardinal-G21024/4.30.3]
+bt_vision dps_1000: Mozilla/5.0 (avdn/[+bt_cardinal.stb.2011]; avkb/pc,B:1572866; avvp/ssl; avui/tv; avrt/cehtml; avst/off; Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.13) CE-HTML/1.0 [+BT-Cardinal-G]2512/4.30.1
 
 ########
 # Cello
