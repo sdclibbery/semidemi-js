@@ -74,7 +74,6 @@ humax hdr_1000s: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; [+Humax]; [+HDR-5100S
 humax hdr_1000s: Opera/9.80 (Linux mips; HbbTV/1.2.1 (; Freesat/1.0; [+hdr1000s]; 1.0.0; 1.0.0; wired); ce-html/1.0) Presto/2.12.407 Version/12.50
 humax pvr_2013: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; Freesat/1.0; [+hb1000s]; 1.0.0; 1.0.0; wired); ce-html/1.0; en) Presto/2.10.250 Version/11.60
 humax pvr_2013: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; Freesat/1.0; [+hdr2000t]; 1.0.0; 1.0.0; wired); ce-html/1.0; en) Presto/2.10.250 Version/11.60
-humax pvr_2013_v2: Opera/9.80 (Linux mips; HbbTV/1.2.1 (; Freesat/1.0; [+hb1000s]; 1.0.0; 1.0.0; wired); ce-html/1.0) Presto/2.12.407 Version/12.50
 humax humax_tv: HbbTV/1.1.1 (+PVR;;;;avdn/[+humax].stb.2010) ANTGalio/3.1.5.24.04.08
 
 ########
@@ -92,7 +91,8 @@ lg netcast_tv_2010: Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2+
 lg bd670: Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] avui/tv avvp/ssl avkb/mcr,B:461 [+avrt/html4 avst/off] LG Browser/4.1.0(+3D+BDP; [+LGE;] [+Media/BD670]; BD.8.62.211.E; 0x00000001;); [+LG NetCast.Media-2011][-LG Browser/4.0.12]
 lg netcast_media_2011: Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2+ (KHTML, like Gecko),  Safari/531.2+ (avdn/LG.Media-2011 avui/tv avvp/ssl avkb/mcr,B:461 [+avrt/html4 avst/off]) LG Browser/4.0.3(+BDP; [+LGE;] [+Media/BD572]; BD.8.31.305.C; 0x00000001;); [+LG NetCast.Media-2010]
 lg netcast_media_2011: Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ LG Browser/4.1.4(+3D+SCREEN+TUNER; [+LGE;] [+Media/BD670]; BD.3.62.080.E; 0x00000001;); [+LG NetCast.Media-2011]
-lg netcast_tv_2011: Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2+ (KHTML, like Gecko, Safari/531.2+); LG Browser/4.0.9(+mouse+3D+SCREEN+TUNER; [+LGE;]42LE7500-ZA; 03.05.04; 0x00000001;); [+LG NetCast.TV-2011]
+lg netcast_media_2011: Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/off LG Browser/4.0.12(+3D+BDP; LGE; [+Media/BD670]; BD.3.62.080.E; 0x00000001;); [+LG NetCast.Media-2011]
+lg tv_2011: Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2+ (KHTML, like Gecko, Safari/531.2+); LG Browser/4.0.9(+mouse+3D+SCREEN+TUNER; [+LGE;]42LE7500-ZA; 03.05.04; 0x00000001;); [+LG NetCast.TV-2011]
 lg netcast_tv_2011: Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2+ (KHTML, like Gecko), Safari/531.2+ [+avdn/LG.TV-2011] avui/tv avvp/ssl avkb/mcr,B:461 [+avrt/html4 avst/off] LG Browser/4.0.10(+mouse+PORTAL_KEY+SCREEN+TUNER; [+LGE;] [+GLOBAL-PLAT2]; 03.01.00; 0x00000001;); [+LG NetCast.TV-2010]
 lg st600: Mozilla/5.0 (DirectFB; U; Linux 7631; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] avui/tv avvp/ssl avkb/mcr,B:461 [+avrt/html4 avst/off] LG Browser/4.1.4(+NO_NUM; [+LGE;] [+Media/ST600]; ST.8.79.151.F; 0x00000001;); [+LG NetCast.Media-2011]
 lg tv_2011: Mozilla/5.0 (DirectFB; U; Linux 35230; en) AppleWebKit/531.2 (KHTML, like Gecko) Safari/531.2 avdn/LG.TV-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/on LG Browser/4.1.4( mouse PORTAL_KEY SCREEN TUNER; [+LGE;] 32LV550T-ZC; 06.01.24; 0x00000001;); [+LG NetCast.TV-2011][-GLOBAL-PLAT3]
@@ -275,7 +275,7 @@ oregan onyx_tv_2010: Mozilla/5.0 (avdn/onyx.stb.2010; avui/tv; avvp/ssl; avrt/ce
 panasonic bd_2012_mediatek: Opera/9.80 (Linux armv6I; U; [+Panasonic.bd.2012].[+Mediatek]; en) Presto/2.8.115 Version/11.10
 panasonic bd_2012_mediatek: Opera/9.80 U; (Linux mn10300;(avdn/[+Panasonic.bd.2012];avvp/ssl;avui/tv;avrt/html5;avkb/mcr,P:113,PU:114,S:115,SF:116,SB:117,ST:112;avui/tv;avst/on))Presto/2.12.362 Version/12.11
 panasonic bd_2014_highend: Mozilla/5.0(compatible; U; InfiNet 0.1; Diga) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.bd.pro4r.2014])
-panasonic bd_2014_mediatek: Opera/9.80 (Linux armv6l; [+Opera TV Store/5450]; [+Panasonic.bd.mtk2d.2014]; [+Mediatek]) Presto/2.12.362 Version/12.10
+panasonic bd_2d_2014: Opera/9.80 (Linux armv6l; [+Opera TV Store/5450]; [+Panasonic.bd.mtk2d.2014]; [+Mediatek]) Presto/2.12.362 Version/12.10
 panasonic bd_2014_midrange: Mozilla/5.0(compatible; U; InfiNet 0.1; Diga) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.bd.pro4p.2014])
 panasonic bd_3d_2013_st: Opera/9.80 (Linux mn10300; U; (avdn/[+Panasonic.bd.2012];avvp/ssl;avui/tv;avrt/html5;avkb/mcr,P:113,PU:114,S:115,SF:116,SB:117,ST:112;avui/tv;avst/on); en) Presto/2.10.287 Version/12.00
 panasonic bd_3d_2013_st: Opera/9.80 (Linux mn10300; U; (avdn/[+Panasonic.bd.2012];avvp/ssl;avui/tv;avrt/html5;avkb/mcr,P:113,PU:11 4,S:115,SF:116,SB:117,ST:112;avui/tv;avst/on); en) Presto/2.9.167Version/11.50
@@ -359,7 +359,7 @@ samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD
 samsung bd_ht_2014: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+B-HM5160]; [+Mediatek]) Presto/2.12.362 Version/12.11 Brand=[+Samsung] Platform=MTK Model=[+B-HM5160]
 samsung bd_ht_foxb_2013: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2013; [+Maple2012]) AppleWebKit/535.20+ (KHTML, like Gecko) SmartTV Safari/535.20+ Brand=[+Samsung] Platform=[+FoxB] 
 samsung bd_ht_foxb_2014: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2014; [+Maple2012]) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=[+Samsung] Platform=[+FOXB]  Model=xxxx
-samsung d6500: Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) [+Maple 6.0.00080] modelId=genoa
+samsung d8000: Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) [+Maple 6.0.00080] modelId=genoa
 samsung d8000: Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) [+Maple 6.0.00067] modelId=genoa
 samsung ht_e4: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012]) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 [+Series=4000(HT)]
 samsung ht_e5: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012]) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 [+Series=5000(HT)]
