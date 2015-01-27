@@ -416,7 +416,9 @@ sony bdp_2013: Opera/9.80 (Linux mips ; U; ja) Presto/2.12 Version/12.10 SonyCEB
 sony bdp_2013: Opera/9.80 (Linux mips ; U; ja) Presto/2.12 Version/12.10 SonyCEBrowser/1.0 ([+BDV6G_NJ]; BDP2013/M14.R.0041; XAE)
 sony bdp_2014_highend: Opera/9.80 (Linux armv6l; [+Opera TV Store/5581]) Presto/2.12.362 Version/12.11 SonyCEBrowser/1.0 ([+BDP9G_BX]; [+BDP2014]/M19.D.0017; XAE; )
 sony bdp_2014_midrange: Opera/9.80 (Linux armv6l; [+Opera TV Store/5581]) Presto/2.12.362 Version/12.11 SonyCEBrowser/1.0 ([+BDP9G_AX]D; [+BDP2014]/M19.D.0017; XAE; )
-
+sony bdp_2015_midrange: Mozilla/5.0 (linux armv7I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.19 Safari/537.36 OPR/19.0.1325.0 OMI/4.1.49.ALSAN3.1 SonyCEBrowser/1.0 (BDPlayer; [+BDP10G_A]X; [+BDP2015]/M22.D.0017; XAE; )
+sony bdp_2015_highend: Mozilla/5.0 (linux armv7I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.19 Safari/537.36 OPR/19.0.1325.0 OMI/4.1.49.ALSAN3.1 SonyCEBrowser/1.0 (BDPlayer; [+BDP10G_B]X; [+BDP2015]/M22.D.0017; XAE; )
+sony bdp_2015_highend: Mozilla/5.0 (linux armv7I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.19 Safari/537.36 OPR/19.0.1325.0 OMI/4.1.49.ALSAN3.1 SonyCEBrowser/1.0 (BDPlayer; [+BDV8G]_GZ; [+BDP2015]/M22.D.0017; XAE; )
 
 ########
 # Technika
