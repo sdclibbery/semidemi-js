@@ -310,9 +310,8 @@ philips hmp7000_bluray_2012: Opera/9.80 (Linux armv7l; U; CE-HTML/1.0 NETTV/3.0.
 philips 2012_tv: Opera/9.80 (Linux mips ; U; HbbTV/1.1.1 (; [+Philips;] ; ; ; ) CE-HTML/1.0 NETTV/4.1.1; en) Presto/2.6.33 Version/10.70
 philips 2012_tv: Opera/9.80 (Linux mips ; U; HbbTV/1.1.1 (; [+Philips;] ; ; ; ) CE-HTML/1.0 NETTV/4.1.1; en) Presto/2.6.33 Version/11.60
 philips tv_2013_fusion: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; [+Philips;];;;) CE-HTML/1.0 NETTV/4.0.2 [+PHILIPSTV/]1.1.1; en) Presto/2.10.250 Version/11.60
-philips tv_2013_fusion_v3: Opera/9.80 (Linux mips; HbbTV/1.2.1 (; [+Philips; ; ; ; ]) CE-HTML/1.0 NETTV/4.3.0 [+PHILIPSTV/]1.1.1 Firmware/173.42.0 (PhilipsTV, 1.1.1,) en) Presto/2.12.362 Version/12.11
 philips tv_2013_mtk: Opera/9.80 (Linux armv7l; U; CE-HTML/1.0 NETTV/4.2.0 [+PHILIPSTV/]2.1.1; en) Presto/2.10.87 Version /11.60
-philips tv_2013mtk_v2: Opera/9.80 (Linux armv7l; HbbTV/1.1.1 (; [+Philips; ; ; PHILIPSTV;] ) CE-HTML/1.0 NETTV/4.3.1 [+PHILIPSTV/]2.1.1 Firmware/003.001.000.001 (PhilipsTV, 2.1.1,) en) Presto/2.12.362 Version/12.11
+philips tv_2013_mtk: Opera/9.80 (Linux armv7l; HbbTV/1.1.1 (; [+Philips; ; ; PHILIPSTV;] ) CE-HTML/1.0 NETTV/4.3.1 [+PHILIPSTV/]2.1.1 Firmware/003.001.000.001 (PhilipsTV, 2.1.1,) en) Presto/2.12.362 Version/12.11
 philips tv_2014_highend_antgalio: [+HbbTV]/1.2.1 (;Philips;MT5591; [+PhilipsTV, 3.1].1;;) [+ANTGalio]/3.4.0.27.00.devel
 philips tv_2014_midrange: Opera/9.80 (Linux armv7l; [+HbbTV]/1.1.1 (; Philips; ; ; PHILIPSTV; ) CE-HTML/1.0 NETTV/4.1.1 SmartTvA/3.0.0 Firmware/001.175.003.000 ([+PhilipsTV, 4.1].1,) en) Presto/2.12.362 Version/12.11
 philips tv_2014_midrange_antgalio: [+HbbTV]/1.2.1 (;Philips;MT5580; [+PhilipsTV, 4.1].1;;) [+ANTGalio]/3.4.0.27.00.devel
