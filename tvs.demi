@@ -19,7 +19,7 @@ mediatek tv_2014: HBBTV/1.2.1 (;[+MEDIATEK] TV;MT5880;;;) ANTGALIO/3.3.0.26.04
 netgem pvr_2014: [+Netbox]-n26-1-01-edelweiss/7.0.0.00-0
 nowtv stb_2013: Roku/[+DVP-2400SK]-4.1 (024.01E02667A)
 opera 2014: [+Opera TV/Blinktest] OPR/99.99
-opera sdk_35: [+Opera/9.99 (Linux_SDK; test)Linux_SDK/1.0 Version/9.99]
+opera 35: [+Opera/9.99 (Linux_SDK; test)Linux_SDK/1.0 Version/9.99]
 ouya stb_2013: Mozilla/5.0 (Linux; U; Android [+OUYA] 4.2.1; en-us; [+OUYA] Build/JZO54L-[+OUYA]) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 SAFARI/534.30
 pure gemini_pvr_vl_61770: [+Pure-VL61770]-2012-01
 triax stb_2013: Mozilla/5.0 (; U; Linux SH4; en) AppleWebkit/534.1 (KHTML, like Gecko) HbbTV/1.1.1 (;[+GMI-SS-Browser]- 3.0; mB/7108;1.0.0;1.00;)
@@ -31,7 +31,7 @@ trident tv_2012: Mozilla/5.0 (X11; U; Linux i686; en-US; 1.9.2.10) AppleWebKit/5
 
 bbc_internal url_monitor: [+BBC-Forge-URL-Monitor-Twisted]
 generic smarttv_browser: [+DO_NOT_MATCH_GENERIC_SMARTTV]
-smart_bridge content_provider: [+smartbridge content provider]
+bbc smartbridge: [+smartbridge content provider]
 
 
 ########
@@ -60,7 +60,7 @@ cello bush_smart_tv_2012_c32z18fiptv: Mozilla/5.0 (X11; U; Linux i686; en) Apple
 # Goodmans
 ########
 
-goodmans 2013_stb_gV102zrh: Mozilla/5.0 (compatible; ANTGalio/3.2.0; Linux2.6.32.16/sh4; [+GV102ZRH])
+goodmans stb_2013_gv102zrh: Mozilla/5.0 (compatible; ANTGalio/3.2.0; Linux2.6.32.16/sh4; [+GV102ZRH])
 goodmans stb_2013: Mozilla/5.0(Linuxmipsel;U;en-GB;)AppleWebKit/537.4 (KHTML,likeGecko)HbbTV/1.1.1(;[+GEEYA];MWB;;;)[+GEEYA]-P1218 
 
 
@@ -69,7 +69,7 @@ goodmans stb_2013: Mozilla/5.0(Linuxmipsel;U;en-GB;)AppleWebKit/537.4 (KHTML,lik
 ########
 
 humax fox_t2: Opera/9.80 (Linux 7405b0-smp; U; HbbTV/1.1.1 (; [+Humax]; [+HDR-FOX T2]; 1.03.00; 1.0; ); ce-html/1.0; en) Presto/2.10.250 Version/11.60
-humax fox_t2_hd: Opera/9.80 (Linux 7405b0-smp; U; HbbTV/1.1.1 (; [+Humax]; [+HD-FOX T2]; 1.03.01; 1.0; ); ce-html/1.0; en) Presto/2.10.250 Version/11.60
+humax fox_t2: Opera/9.80 (Linux 7405b0-smp; U; HbbTV/1.1.1 (; [+Humax]; [+HD-FOX T2]; 1.03.01; 1.0; ); ce-html/1.0; en) Presto/2.10.250 Version/11.60
 humax hdr_1000s: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; [+Humax]; [+HDR-5100S]; 1.0.0; 1.0.0; ); ce-html/1.0; en) Presto/2.9.167 Version/11.50 (Core 2.9.167)
 humax hdr_1000s: Opera/9.80 (Linux mips; HbbTV/1.2.1 (; Freesat/1.0; [+hdr1000s]; 1.0.0; 1.0.0; wired); ce-html/1.0) Presto/2.12.407 Version/12.50
 humax pvr_2013: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; Freesat/1.0; [+hb1000s]; 1.0.0; 1.0.0; wired); ce-html/1.0; en) Presto/2.10.250 Version/11.60
@@ -123,78 +123,78 @@ lg tv_2012_midrange: [+LM][+T-Z][+LG NetCast.TV-2012]
 lg bluray_3d_broadcom_2013: Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] avui/tv avvp/ssl avkb/mcr,B:461 [+avrt/html4 avst/off] LG Browser/4.1.4(+3D+BDP; [+LGE;] [+Media/HR]939; BR.5.97.037.B; 0x00000001;); [+LG NetCast.Media-2011]
 lg bluray_2013: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BH6830]; 1079; abc;); [+LG NetCast.Media-2011]
 lg bluray_2013: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; [+LGE;] [+Media/BP530]; 1079; abc;); [+LG NetCast.Media-2011]
-lg netcast_bluray_3d_2013: Mozilla/5.0 (DirectFB; Linux armv7l) [+BLURAY 2013] DUMMY [+LG UA] MATCHED IN BBC-WURFL LGTVMATCHER.JAVA
-lg netcast_bluray_3d_2013: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ avdn/[+LG.Media-2010] LG Browser/5.00.00([++3D+BDP]; LGE; [+Media/B]P730; 1152; abc;); [+LG NetCast.Media-2012]
-lg netcast_bluray_3d_2013-HR932M: Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+BDP; [+LGE;] [+Media/HR932]; BR.5.97.037.B; 0x00000001;); [+LG NetCast.Media-2011][-avrt/html4 avst/off]
-lg netcast_bluray_3d_2013-HR933M: Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+BDP; [+LGE;] [+Media/HR933]; BR.5.97.037.B; 0x00000001;); [+LG NetCast.Media-2011][-avrt/html4 avst/off]
-lg netcast_bluray_3d_2013-HR935M: Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+BDP; [+LGE;] [+Media/HR935]; BR.5.97.037.B; 0x00000001;); [+LG NetCast.Media-2011][-avrt/html4 avst/off]
-lg netcast_bluray_3d_2013-HR939M: Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+BDP; [+LGE;] [+Media/HR939]; BR.5.97.037.B; 0x00000001;); [+LG NetCast.Media-2011][-avrt/html4 avst/off]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+70V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+40V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+10V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+20V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+40V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+40V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+50V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+60U-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+13V-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+40V-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+67V-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+620V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+640V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+650V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+660V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+660V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+690V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+690V-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+690V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+710V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+70S-ZD]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+70U-Z]D; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+70V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+75V-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+78V-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+1V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+1V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+3V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+5V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+7V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+8V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+V-ZC]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+V-ZD]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+V-ZK]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+S-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+U-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_midrange: Mozilla/5.0(Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+ TV set capa; sw version, [+LM960V-Z] ; sw version; hw version); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+790V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+790V-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+790V-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+790V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+790W-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+790W-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+790W-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+790W-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+860V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+960V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+80V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+80W-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+80W-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+80W-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+80W-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+80V-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+80V-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+80V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+60W-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+60W-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+60W-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+60W-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+60V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+60V-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+60V-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+70W-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+70W-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+70W-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
-lg tv2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+70W-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg bluray_3d_2013: Mozilla/5.0 (DirectFB; Linux armv7l) [+BLURAY 2013] DUMMY [+LG UA] MATCHED IN BBC-WURFL LGTVMATCHER.JAVA
+lg bluray_3d_2013: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ avdn/[+LG.Media-2010] LG Browser/5.00.00([++3D+BDP]; LGE; [+Media/B]P730; 1152; abc;); [+LG NetCast.Media-2012]
+lg bluray_3d_2013: Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+BDP; [+LGE;] [+Media/HR932]; BR.5.97.037.B; 0x00000001;); [+LG NetCast.Media-2011][-avrt/html4 avst/off]
+lg bluray_3d_2013: Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+BDP; [+LGE;] [+Media/HR933]; BR.5.97.037.B; 0x00000001;); [+LG NetCast.Media-2011][-avrt/html4 avst/off]
+lg bluray_3d_2013: Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+BDP; [+LGE;] [+Media/HR935]; BR.5.97.037.B; 0x00000001;); [+LG NetCast.Media-2011][-avrt/html4 avst/off]
+lg bluray_3d_2013: Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+BDP; [+LGE;] [+Media/HR939]; BR.5.97.037.B; 0x00000001;); [+LG NetCast.Media-2011][-avrt/html4 avst/off]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+70V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+40V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+10V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+20V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+40V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+40V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+50V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+60U-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+13V-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+40V-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+67V-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+620V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+640V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+650V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+660V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+660V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+690V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+690V-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+690V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+710V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+70S-ZD]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+70U-Z]D; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+70V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+75V-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+78V-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+1V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+1V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+3V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+5V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+7V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+8V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+V-ZC]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+V-ZD]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+V-ZK]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+S-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+U-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0(Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+ TV set capa; sw version, [+LM960V-Z] ; sw version; hw version); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+790V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+790V-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+790V-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+790V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+790W-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+790W-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+790W-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+790W-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+860V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+960V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+80V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+80W-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+80W-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+80W-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+80W-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+80V-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+80V-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+80V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+60W-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+60W-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+60W-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+60W-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+60V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+60V-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+60V-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+70W-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+70W-ZB]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+70W-ZE]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_highend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+70W-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
 
 # 2014
 
@@ -210,10 +210,10 @@ lg tv_2014_highend: Mozilla/5.0(Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML,
 # Loewe
 ########
 
-loewe tv_2013_sl210: Opera/9.80 (Linux sh4;  HbbTV/1.2.1 (+PVR; [+Loewe; SL21]0; LOH/4.01;;) CE-HTML/1.0 Config(L:eng,CC:GBR)  NETRANGEMMH) Presto/2.12.362 Version/12.10
-loewe tv_2013_sl210_v2: Opera/9.80 (Linux sh4; HbbTV/1.2.1 (+PVR; [+Loewe; SL21]0; LOH/4.01;;) CE-HTML/1.0 Config(L:eng,CC:GBR)  NETRANGEMMH) Presto/2.12.362 Version/12.10
-loewe tv_2013_sl220: Opera/9.80 (Linux sh4;  HbbTV/1.2.1 (+PVR; [+Loewe; SL22]0; LOH/4.01;;) CE-HTML/1.0 Config(L:eng,CC:GBR)  NETRANGEMMH) Presto/2.12.362 Version/12.10
-loewe tv_2013_sl220_v2: Opera/9.80 (Linux sh4; HbbTV/1.2.1 (+PVR; [+Loewe; SL22]0; LOH/4.01;;) CE-HTML/1.0 Config(L:eng,CC:GBR)  NETRANGEMMH) Presto/2.12.362 Version/12.10
+loewe tv_2013_midrange: Opera/9.80 (Linux sh4;  HbbTV/1.2.1 (+PVR; [+Loewe; SL21]0; LOH/4.01;;) CE-HTML/1.0 Config(L:eng,CC:GBR)  NETRANGEMMH) Presto/2.12.362 Version/12.10
+loewe tv_2013_midrange: Opera/9.80 (Linux sh4; HbbTV/1.2.1 (+PVR; [+Loewe; SL21]0; LOH/4.01;;) CE-HTML/1.0 Config(L:eng,CC:GBR)  NETRANGEMMH) Presto/2.12.362 Version/12.10
+loewe tv_2013: Opera/9.80 (Linux sh4;  HbbTV/1.2.1 (+PVR; [+Loewe; SL22]0; LOH/4.01;;) CE-HTML/1.0 Config(L:eng,CC:GBR)  NETRANGEMMH) Presto/2.12.362 Version/12.10
+loewe tv_2013: Opera/9.80 (Linux sh4; HbbTV/1.2.1 (+PVR; [+Loewe; SL22]0; LOH/4.01;;) CE-HTML/1.0 Config(L:eng,CC:GBR)  NETRANGEMMH) Presto/2.12.362 Version/12.10
 loewe sl150: Opera/10.60 (Linux sh4 ; U; HbbTV/1.1.1 (+PVR; [+Loewe; SL150;] LOH/3.10; CE-HTML/1.0
 loewe sl150: [+Opera/9.80] (Linux sh4; U; HbbTV/1.1.1 (+PVR; [+Loewe; SL150;] LOH/3.10;;) CE-HTML/1.0 Config(L:eng,CC:GBR); en) Presto/2.10.250 Version/11.60
 
@@ -232,7 +232,7 @@ manhattan stb_2013: Mozilla/5.0 (Linux MIPS; U; EN-GB) AppleWebKit/537.4 (KHTML,
 ########
 
 motorola stb_2012: [+KreaTV]WebKit/531 ([+Motorola] STB; Linux) [+Motorola] [+KreaTV] STB VIP1003
-motorola stb_2012_v2: Mozilla/5.0 (Linux) AppleWebKit/534.51 (KHTML, like Gecko) [+Ekioh]/2.2.4.7-moto-mob Safari/534.51:534 [+Motorola] [+KreaTV] STB VIP1003
+motorola stb_2012: Mozilla/5.0 (Linux) AppleWebKit/534.51 (KHTML, like Gecko) [+Ekioh]/2.2.4.7-moto-mob Safari/534.51:534 [+Motorola] [+KreaTV] STB VIP1003
 
 
 ########
@@ -292,6 +292,7 @@ panasonic tv_2014_volume: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWe
 panasonic dmp_bdt110: Opera/9.80 (Linux mn10300; U; (avdn/[+Panasonic.bd.2011];avvp/ssl;avui/tv;avrt/html5;avkb/mcr,P:113,PU:114,S:115,SF:116,SB:117,ST:112;avui/tv;avst/on); en) Presto/2.8.115 Version/11.10
 panasonic dmp_bdt110: Opera/9.80 (Linux mn10300;U;(avdn/[+Panasonic.bd.2012];avvp/ssl;avui/tv;avrt/html5;avkb/mcr,P:113,PU:114,S:115,SF:116,SB:117,ST:112;avui/tv;avst/on))Presto/2.12.362 Version/12.11
 panasonic dmp_bdt110: Opera/9.80 (Linux mn10300; U; (avdn/[+Panasonic.bd3d.2012];avvp/ssl;avui/tv;avrt/html5;avkb/mcr,P:113,PU:11 4,S:115,SF:116,SB:117,ST:112;avui/tv;avst/on); en) Presto/2.9.167 Version/11.50
+panasonic dmp_bdt110: Opera/9.80 (Linux mn10300; U; (avdn/[+Panasonic.bd.2012];avvp/ssl;avui/tv;avrt/html5;avkb/mcr,P:113,PU:114,S:115,SF:116,SB:117,ST:112;avui/tv;avst/on); en) Presto/2.9.167 Version/11.50
 panasonic bd_2d_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store]/5450; [+Panasonic.bd2d.2013]; [+Mediatek]) Presto/2.12.362 Version/12.10
 panasonic bd_3d_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store]/5450; [+Panasonic.bd3d.2013]; [+Mediatek]) Presto/2.12.362 Version/12.10
 panasonic tv_2013_mt5590: Mozilla/5.0(compatible; U; InfiNet 0.1; [+Viera]) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.mtk.2013])
@@ -309,9 +310,9 @@ philips hdsp_pvr_2012: [+SAGEMCOM]/2.0 [+HDSP]
 philips hmp7000_bluray_2012: Opera/9.80 (Linux armv7l; U; CE-HTML/1.0 NETTV/3.0.1; [+PHILIPS-AVM-2012]; en) Presto/2.10.250. Version/11.60
 philips 2012_tv: Opera/9.80 (Linux mips ; U; HbbTV/1.1.1 (; [+Philips;] ; ; ; ) CE-HTML/1.0 NETTV/4.1.1; en) Presto/2.6.33 Version/10.70
 philips 2012_tv: Opera/9.80 (Linux mips ; U; HbbTV/1.1.1 (; [+Philips;] ; ; ; ) CE-HTML/1.0 NETTV/4.1.1; en) Presto/2.6.33 Version/11.60
-philips tv_2013_fusion_v2: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; [+Philips;];;;) CE-HTML/1.0 NETTV/4.0.2 [+PHILIPSTV/]1.1.1; en) Presto/2.10.250 Version/11.60
+philips tv_2013_fusion: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; [+Philips;];;;) CE-HTML/1.0 NETTV/4.0.2 [+PHILIPSTV/]1.1.1; en) Presto/2.10.250 Version/11.60
 philips tv_2013_fusion_v3: Opera/9.80 (Linux mips; HbbTV/1.2.1 (; [+Philips; ; ; ; ]) CE-HTML/1.0 NETTV/4.3.0 [+PHILIPSTV/]1.1.1 Firmware/173.42.0 (PhilipsTV, 1.1.1,) en) Presto/2.12.362 Version/12.11
-philips tv_2013mtk: Opera/9.80 (Linux armv7l; U; CE-HTML/1.0 NETTV/4.2.0 [+PHILIPSTV/]2.1.1; en) Presto/2.10.87 Version /11.60
+philips tv_2013_mtk: Opera/9.80 (Linux armv7l; U; CE-HTML/1.0 NETTV/4.2.0 [+PHILIPSTV/]2.1.1; en) Presto/2.10.87 Version /11.60
 philips tv_2013mtk_v2: Opera/9.80 (Linux armv7l; HbbTV/1.1.1 (; [+Philips; ; ; PHILIPSTV;] ) CE-HTML/1.0 NETTV/4.3.1 [+PHILIPSTV/]2.1.1 Firmware/003.001.000.001 (PhilipsTV, 2.1.1,) en) Presto/2.12.362 Version/12.11
 philips tv_2014_highend_antgalio: [+HbbTV]/1.2.1 (;Philips;MT5591; [+PhilipsTV, 3.1].1;;) [+ANTGalio]/3.4.0.27.00.devel
 philips tv_2014_midrange: Opera/9.80 (Linux armv7l; [+HbbTV]/1.1.1 (; Philips; ; ; PHILIPSTV; ) CE-HTML/1.0 NETTV/4.1.1 SmartTvA/3.0.0 Firmware/001.175.003.000 ([+PhilipsTV, 4.1].1,) en) Presto/2.12.362 Version/12.11
@@ -326,7 +327,7 @@ philips tv_4_0_1: Opera/9.80 (Linux mips ; U; HbbTV/1.1.1 (; [+Philips; ; ; ; ])
 ########
 
 roku dvp_2400eu: [+Roku/DVP-24]00EU
-roku dvp_2720eu: [+Roku/DVP-27]20EU-3.2 (European Model)
+roku dvp_2700eu: [+Roku/DVP-27]20EU-3.2 (European Model)
 roku dvp_3100eu: [+Roku/DVP-31]00EU
 roku dvp_4200eu: [+Roku/DVP-42]00EU-5.1 (Roku 3)
 roku streamer_2014: [+Roku/DVP-35]00
@@ -348,13 +349,13 @@ samsung bd_e5: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012
 samsung bd_e6: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012]) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 [+Series=6000(BD)]
 samsung bd_e8: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012]) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 [+Series=8000(BD)]
 samsung bd_es7: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012]) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 [+Series=7000(BD)]
-samsung bd_ht_2013_ht-f4200: Opera/9.80 (Linux armv6l; [+Opera TV Store/4515]; U; [+Smart-BD]; M; Linux/SmartBD; [+HT-F4200;] [+Mediatek]; en) Presto/2.10.250 Version/11.60
-samsung bd_ht_2013_ht-f4200_2: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+HT-F4200;] [+Mediatek]) Presto/2.12.362 Version/12.11
-samsung bd_ht_2013_ht-f4500: Opera/9.80 (Linux armv6l; [+Opera TV Store/4515]; U; [+Smart-BD]; M; Linux/SmartBD; [+HT-F4500;] [+Mediatek]; en) Presto/2.10.250 Version/11.60
-samsung bd_ht_2013_ht-f4500_2: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+HT-F4500;] [+Mediatek]) Presto/2.12.362 Version/12.11
-samsung bd_ht_2013_ht-f5500: Opera/9.80 (Linux armv6l; [+Opera TV Store/4515]; U; [+Smart-BD]; M; Linux/SmartBD; [+BD-F5500;] [+Mediatek]; en) Presto/2.10.250 Version/11.60
-samsung bd_ht_2013_ht-f5500_2: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+BD-F5500;] [+Mediatek]) Presto/2.12.362 Version/12.11
-samsung bd_ht_2013_ht-f5500_2: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+BD-F5100;] [+Mediatek]) Presto/2.12.362 Version/12.11
+samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/4515]; U; [+Smart-BD]; M; Linux/SmartBD; [+HT-F4200;] [+Mediatek]; en) Presto/2.10.250 Version/11.60
+samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+HT-F4200;] [+Mediatek]) Presto/2.12.362 Version/12.11
+samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/4515]; U; [+Smart-BD]; M; Linux/SmartBD; [+HT-F4500;] [+Mediatek]; en) Presto/2.10.250 Version/11.60
+samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+HT-F4500;] [+Mediatek]) Presto/2.12.362 Version/12.11
+samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/4515]; U; [+Smart-BD]; M; Linux/SmartBD; [+BD-F5500;] [+Mediatek]; en) Presto/2.10.250 Version/11.60
+samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+BD-F5500;] [+Mediatek]) Presto/2.12.362 Version/12.11
+samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+BD-F5100;] [+Mediatek]) Presto/2.12.362 Version/12.11
 samsung bd_ht_2014: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+B-HM5160]; [+Mediatek]) Presto/2.12.362 Version/12.11 Brand=[+Samsung] Platform=MTK Model=[+B-HM5160]
 samsung bd_ht_foxb_2013: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2013; [+Maple2012]) AppleWebKit/535.20+ (KHTML, like Gecko) SmartTV Safari/535.20+ Brand=[+Samsung] Platform=[+FoxB] 
 samsung bd_ht_foxb_2014: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2014; [+Maple2012]) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=[+Samsung] Platform=[+FOXB]  Model=xxxx
@@ -384,10 +385,10 @@ samsung tv_x12_2013: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2013; 
 ########
 
 sharp tv_2012: [+Opera/9.80 (Linux armv6l ; U; HbbTV/1.1.1 (; ; ; ; ; ) CE-HTML/1.0 NETTV/3.2.1; en) Presto/2.6.33 Version/10.60]
-sharp 2013_highend: Opera/9.80 (Linux armv7l ; U; HbbTV/1.1.1 (; ; ; ; ; ) CE-HTML/1.0 NETTV/3.2.3 [+AquosTV]/1.1.1; en) Presto/2.10.287 Version/12.00
+sharp tv_2013_highend: Opera/9.80 (Linux armv7l ; U; HbbTV/1.1.1 (; ; ; ; ; ) CE-HTML/1.0 NETTV/3.2.3 [+AquosTV]/1.1.1; en) Presto/2.10.287 Version/12.00
 sharp le731: HbbTV/1.1.1 ( ; [+Sharp]; [+LE731;] 690.1; 1.32;)
 sharp tv_2013: Opera/9.80 (Linux sh4;  HbbTV/1.2.1 (;[+Sharp];[+LE]750;v0.100;;) CE-HTML/1.0 Config(L:eng,CC:GBR); NETRANGEMMH; en) Presto/2.12.362 Version/12.10
-sharp tv_2013_751: Opera/9.80 (Linux sh4; HbbTV/1.2.1 (;[+Sharp];[+LE]751;v0.1.13.1;;) CE-HTML/1.0 Config(L:spa,CC:GBR) NETRANGEMMH) Presto/2.12.362 Version/12.10
+sharp tv_2013: Opera/9.80 (Linux sh4; HbbTV/1.2.1 (;[+Sharp];[+LE]751;v0.1.13.1;;) CE-HTML/1.0 Config(L:spa,CC:GBR) NETRANGEMMH) Presto/2.12.362 Version/12.10
 sharp tv_2014: Mozilla/5.0 (DirectFB; Linux armv6l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6 HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;[+Sharp];MODELROCA;v1.0.0;;) Config(L:eng,CC:GBR)
 
 
