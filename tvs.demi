@@ -202,7 +202,7 @@ lg bdp_2014_highend: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) [+BLURAY 2014] 
 lg bdp_2014_highend: Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ [+avdn/LG.Media-2010] LG Browser/5.00.00(+3D+BDP; LGE; [+Media/]BP740; 4084; abc;); [+LG NetCast.Media-2012]
 lg bdp_2014_highend: [+Media/BH9540][+LG NetCast.Media-2012]
 lg bdp_2014_midrange: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) [+BLURAY 2014] DUMMY [+LG UA] MATCHED IN BBC-WURFL LGTVMATCHER.JAVA
-lg bdp_2014_midrange: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; LGE; [+Media/B]P540; [+4086]; abc;); [+LG NetCast.Media-2011])
+lg bdp_2014_midrange: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; LGE; [+Media/]BP540; [+4086]; abc;); [+LG NetCast.Media-2011])
 lg tv_2014_highend: Mozilla/5.0(Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 01.00.17; 1); [+webOS.TV-2014;] [+LG NetCast.TV-2013 Compatible] (LGE, WEBOS1, wired)
 
 
@@ -247,8 +247,7 @@ netgear ntv300: Opera/9.80 (Linux armv6l; [+Opera TV Store/4521]; U; [+NETGEAR-N
 # Nintendo
 ########
 
-nintendo wii_ver1: Opera/9.00 ([+Nintendo Wii;] U; ; 1621; en)
-nintendo wii_ver1_subop93: Opera/9.30 ([+Nintendo Wii; U; ; 2047]-7; en)
+nintendo wii: Opera/9.00 ([+Nintendo Wii;] U; ; 1621; en)
 nintendo wiiu: Mozilla/5.0 ([+Nintendo WiiU]) AppleWebKit/xxx.xx (KHTML, like Gecko) NWF/{MAJOR.MINOR.REV}.{RGN} MATCHED IN BBC-WURFL
 
 
