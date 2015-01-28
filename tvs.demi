@@ -266,8 +266,9 @@ oppo bdp_10x: Opera/9.80 (Linux armv6l; [+Opera TV Store/4515]; U; [+OPPO PLAYER
 ########
 
 oregan onyx_cello_tv_2010: (avui/tv; avvp/wmp; avkb/pc; [+Onyx/CelloTV](M&S) Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.13) CE-HTML/1.0 [+OreganMediaBrowser]/
+oregan onyx_tv_2010: Mozilla/5.0 (avui/tv; avvp/ssl; avkb/pc; Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.13) CE-HTML/1.0 [+OreganMediaBrowser]/4.13.3 Gecko/20080311 Firefox/2.0.0.13
 oregan onyx_tv_2010: Mozilla/5.0 (avdn/onyx.stb.2010; avui/tv; avvp/ssl; avrt/cehtml; avkb/pc,B:1572866; avst/off; Onyx/DigitamStream Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.13) CE-HTML/1.0 [+OreganMediaBrowser]/4.15.29
-
+oregan iptv_stb_2014: Mozilla/5.0 (Linux) smarttv [+OreganMediaBrowser]-ONYX/5.21.1  AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Safari/537.17
 
 ########
 # Panasonic
@@ -296,9 +297,9 @@ panasonic dmp_bdt110: Opera/9.80 (Linux mn10300; U; (avdn/[+Panasonic.bd3d.2012]
 panasonic dmp_bdt110: Opera/9.80 (Linux mn10300; U; (avdn/[+Panasonic.bd.2012];avvp/ssl;avui/tv;avrt/html5;avkb/mcr,P:113,PU:114,S:115,SF:116,SB:117,ST:112;avui/tv;avst/on); en) Presto/2.9.167 Version/11.50
 panasonic bd_2d_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store]/5450; [+Panasonic.bd2d.2013]; [+Mediatek]) Presto/2.12.362 Version/12.10
 panasonic bd_3d_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store]/5450; [+Panasonic.bd3d.2013]; [+Mediatek]) Presto/2.12.362 Version/12.10
-panasonic tv_2013_mt5590: Mozilla/5.0(compatible; U; InfiNet 0.1; [+Viera]) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.mtk.2013])
-panasonic tv_2013_pro4: Mozilla/5.0(compatible; U; InfiNet 0.1; [+Viera]) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.pro4.2013])
-
+panasonic tv_2013_mt5590: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.mtk.2013])
+panasonic tv_2013_pro4: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.pro4.2013])
+panasonic tv_2014_topend: Mozilla/8.1(compatible; U; InfiNet 1.2; Viera) AppleWebKit/123+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.top.2014])
 
 ########
 # Philips
@@ -376,6 +377,7 @@ samsung tv_2014_highend: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+20
 samsung tv_2014_lowend: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2014; [+Maple2012]) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=[+Samsung] Platform=[+X14] Model=xxxx
 samsung tv_2014_midrange: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2014; [+Maple2012]) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=[+Samsung] Platform=[+GOLFS] Model=xxxx
 samsung tv_2014_ultra_highend: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2014; [+Maple2012]) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=[+Samsung] Platform=[+NT14U] Model=xxxx
+samsung tv_2014_volume: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2014; [+Maple2012]) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=[+Samsung] Platform=[+NT14M] Model=xxxx
 samsung tv_foxp_2013: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2013; [+Maple2012]) AppleWebKit/535.20+ (KHTML, like Gecko) SmartTV Safari/535.20+ Brand=[+Samsung] Platform=[+FoxP] Model=xxxx DUMMY SAMSUNG UA MATCHED IN BBC-WURFL SAMSUNGTVMATCHER.JAVA
 samsung tv_x12_2013: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2013; [+Maple2012]) AppleWebKit/535.20+ (KHTML, like Gecko) SmartTV Safari/535.20+ Brand=[+Samsung] Platform=[+X12] Model=UF6400
 
@@ -422,6 +424,7 @@ sony bdp_2015_midrange: Mozilla/5.0 (linux armv7I) AppleWebKit/537.36 (KHTML, li
 sony bdp_2015_highend: Mozilla/5.0 (linux armv7I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.19 Safari/537.36 OPR/19.0.1325.0 OMI/4.1.49.ALSAN3.1 SonyCEBrowser/1.0 (BDPlayer; [+BDP10G_B]X; [+BDP2015]/M22.D.0017; XAE; )
 sony bdp_2015_highend: Mozilla/5.0 (linux armv7I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.19 Safari/537.36 OPR/19.0.1325.0 OMI/4.1.49.ALSAN3.1 SonyCEBrowser/1.0 (BDPlayer; [+BDV8G]_GZ; [+BDP2015]/M22.D.0017; XAE; )
 
+
 ########
 # Technika
 ########
@@ -440,6 +443,13 @@ tesco tk500sdtr212_smart_stb_2012: Mozilla/5.0 (X11; U; Linux i686; en) AppleWeb
 
 
 ########
+# Tivo
+########
+
+tivo opera: [+Opera]/9.80 (Linux mips) Presto/2.12.407 Version/12.51 , TiVo-Device/ml4-th.2014.06.26-1541-VMS-2 ([+TiVo], OnDemand_TCDC8A000, wired)
+
+
+########
 # Toshiba
 ########
 
@@ -453,10 +463,10 @@ toshiba toshiba_tv_2010: Opera/9.80 (Linux mips ; U; avdn/[+Toshiba.tv.2010];avk
 toshiba toshiba_tv_2011: Opera/9.80 (Linux armv7l ; U; avdn/[+Toshiba.tv.2010];avkb/pc,L:37,R:39,U:38,D:40,B:27,E:13;avvp/ssl;avui/tv;avst/on; en) Presto/2.6.33 Version/10.60
 toshiba toshiba_2011: Mozilla/5.0 (X11; U; Linux i686; en) AppleWebKit/534.1 (KHTML, like Gecko) HbbTV/1.1.1 (+DL+PVR+RTSP;Mstar;OWB;;;) [+TOSHIBA-2011-RL/TL]
 toshiba toshiba_2011: Opera/9.80 (Linux armv7l; U; [+TOSHIBA; BDX2250KB;] [+Mediatek]; en) Presto/2.8.115 Version/11.10
-toshiba tv_2014: Mozilla/5.0 (Linux; U; en-UK) AppleWebKit/537.4 (KHTML, like Gecko) HbbTV/1.1.1 (;TOSHIBA;MWB;;;) [+TOSHIBA-DTV-2014A] (L6453; 8.1.21.0.1.1; 2014A; EU)
-toshiba tl963: Mozilla/5.0 (X11; U; Linux i686; en) AppleWebKit/534.1(KHTML, like Gecko) HbbTV/1.1.1(+DL+PVR+RTSP;Mstar;OWB;;;) [+TOSHIBA-2012A-RL/TL/VL]
-toshiba tl968: Mozilla/5.0 (X11; U; Linux i686; en) AppleWebKit/534.1 (KHTML, like Gecko) HbbTV/1.1.1 (+DL+PVR+RTSP;Mstar;OWB;;;) [+TOSHIBA-2012B-RL/TL/WL]
-toshiba tv_2013: Mozilla/5.0 (Linux; U; en-GB) AppleWebKit/534.1(KHTML, like Gecko) HbbTV/1.1.1(;TOSHIBA;MWB;;;) [+TOSHIBA-2013]A-L4/L6/L7/L9
+toshiba tl963: Mozilla/5.0 (X11; U; Linux i686; en) AppleWebKit/534.1(KHTML, like Gecko) [+HbbTV]/1.1.1(+DL+PVR+RTSP;Mstar;OWB;;;) [+TOSHIBA-2012A-RL/TL/VL]
+toshiba tl968: Mozilla/5.0 (X11; U; Linux i686; en) AppleWebKit/534.1 (KHTML, like Gecko) [+HbbTV]/1.1.1 (+DL+PVR+RTSP;Mstar;OWB;;;) [+TOSHIBA-2012B-RL/TL/WL]
+toshiba tv_2013: Mozilla/5.0 (Linux; U; en-GB) AppleWebKit/534.1(KHTML, like Gecko) [+HbbTV]/1.1.1(;TOSHIBA;MWB;;;) [+TOSHIBA-2013]A-L4/L6/L7/L9
+toshiba tv_2014: Mozilla/5.0 (Linux; U; en-UK) AppleWebKit/537.4 (KHTML, like Gecko) [+HbbTV]/1.1.1 (;TOSHIBA;MWB;;;) [+TOSHIBA-DTV-2014A] (L6453; 8.1.21.0.1.1; 2014A; EU)
 
 #########
 # Verismo
@@ -482,8 +492,8 @@ vestel stb_2012: NetFront/4.2.1(avkb/pc,B:461;avvp/ssl;avui/tv;avst/off;avdn/[+V
 vestel tv_2012: NetFront/4.2.1 (avkb/pc,B:461;avvp/ssl;avui/tv;avst/off;avdn/[+-v.tv.2012])
 vestel tv_2013: Opera/9.80 (Linux mips; U; ; en) Presto/2.10.287 Version/12.00 (avkb/pc,B:461;avvp/ssl;avui/tv;avst/off;avdn/[+-v.tv.2013])
 vestel tv_2013_crb: Opera/9.80 (Linux mips;) Presto/2.12.407 Version/12.50 (avkb/pc,B:461;avvp/ssl;avui/tv;avst/off;avdn/[+-v.tv.2013]) [+Broadcast]
-vestel tv_2013_crb: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.4.9.j (LINSAR, Si2156LG32, wired)HbbTV/1.1.1 (; CUS:LINSAR; [+MB9]5; 3.4.9.j; 1.0CE-HTML/1.0 NETRANGEMMH [+iplayerV3]
-vestel tv_2013_crb: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.4.9.j (TOSHIBA, Si2156LG32, wired) DTV_L34(00:09:4e:4a:14:d4/[+MB9]5/[+TOSHIBA-DTV]/3.4.9.j)+CE-HTML;MEM:HIGH
+vestel tv_2013_crb: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.4.9.j (LINSAR, Si2156LG32, wired)[+HbbTV]/1.1.1 (; CUS:LINSAR; MB95; 3.4.9.j; 1.0CE-HTML/1.0 NETRANGEMMH [+iplayerV3]
+vestel tv_2013_crb: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.4.9.j (TOSHIBA, Si2156LG32, wired) [+DTV_L34](00:09:4e:4a:14:d4/MB95/[+TOSHIBA-DTV]/3.4.9.j)+[+CE-HTML];MEM:HIGH
 
 ########
 # View21
