@@ -22,6 +22,7 @@ opera 2014: [+Opera TV/Blinktest] OPR/99.99
 opera 35: [+Opera/9.99 (Linux_SDK; test)Linux_SDK/1.0 Version/9.99]
 ouya stb_2013: Mozilla/5.0 (Linux; U; Android [+OUYA] 4.2.1; en-us; [+OUYA] Build/JZO54L-[+OUYA]) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 SAFARI/534.30
 pure gemini_pvr_vl_61770: [+Pure-VL61770]-2012-01
+seiki tv_2014: Mozilla/5.0(Linuxmipsel;U;en-GB;)AppleWebKit/537.4 (KHTML,likeGecko)[+HbbTV]/1.1.1(;TFG;MWB;;;)[+TFG-OTT]
 triax stb_2013: Mozilla/5.0 (; U; Linux SH4; en) AppleWebkit/534.1 (KHTML, like Gecko) HbbTV/1.1.1 (;[+GMI-SS-Browser]- 3.0; mB/7108;1.0.0;1.00;)
 trident tv_2012: Mozilla/5.0 (X11; U; Linux i686; en-US; 1.9.2.10) AppleWebKit/533.1 (KHTML, like Gecko) [+trident.tv.2012]/1.0.0 HbbTV/1.1.1
 
@@ -321,6 +322,7 @@ philips tv_2014_midrange_antgalio: [+HbbTV]/1.2.1 (;Philips;MT5580; [+PhilipsTV,
 philips 2014_tv_highend: [+HbbTV]Philips; ; ; PHILIPSTV; ) CE-HTML/1.0 NETTV/4.1.1 SmartTvA/3.0.0 Firmware/001.175.003.000 ([+PhilipsTV, 3.1].1,) en) Presto/2.12.362 Version/12.11
 philips tv_3_2_1: Opera/9.80 (Linux mips ; U; HbbTV/1.1.1 (; [+Philips; ; ; ; ]) CE-HTML/1.0 NETTV/3.2.1; en) Presto/2.6.33 Version/10.70
 philips tv_4_0_1: Opera/9.80 (Linux mips ; U; HbbTV/1.1.1 (; [+Philips; ; ; ; ]) CE-HTML/1.0 NETTV/4.0.1; en) Presto/2.9.167 Version/11.50
+philips tv_2015_midrange: Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Philips; ; ; PHILIPSTV; ) CE-HTML/1.0 NETTV/a.b.c SmartTvA/3.0.0  PHILIPSTV/a.b.c.d.e ([+PhilipsTV, 5.1.1],) en) Presto/2.12.407 Version/12.50
 
 
 ########
@@ -346,6 +348,8 @@ sagemcom rti95_xxx_t2_uk: Opera/9.80 (Linux sh4; U; SC604C-[+RTI95]-2012; en) Pr
 # Samsung
 ########
 
+samsung bd_broadcom2010: Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) [+Maple] 5.1.00265 modelId=[+broadcom2010]
+samsung bd_barcelona2010: Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) [+Maple] 5.1.00274 modelId=[+barcelona]
 samsung bd_e5: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012]) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 [+Series=5000(BD)]
 samsung bd_e6: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012]) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 [+Series=6000(BD)]
 samsung bd_e8: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012]) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 [+Series=8000(BD)]
