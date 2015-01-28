@@ -204,6 +204,8 @@ lg bdp_2014_highend: [+Media/BH9540][+LG NetCast.Media-2012]
 lg bdp_2014_midrange: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) [+BLURAY 2014] DUMMY [+LG UA] MATCHED IN BBC-WURFL LGTVMATCHER.JAVA
 lg bdp_2014_midrange: Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; LGE; [+Media/]BP540; [+4086]; abc;); [+LG NetCast.Media-2011])
 lg tv_2014_highend: Mozilla/5.0(Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen Safari/537.41 LG Browser/7.00.00(LGE; WEBOS1; 01.00.17; 1); [+webOS.TV-2014;] [+LG NetCast.TV-2013 Compatible] (LGE, WEBOS1, wired)
+lg tv_2014_ultrahighend: Mozilla/5.0(Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+ TV set capa; sw version, [+model name] ; sw version; hw version); [+LG NetCast.TV-2013]
+lg tv_2014_ultrahighend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; 49[+UB8]30V-ZA; 01.08.01; 0x00000001;); [+LG NetCast.TV-2013]
 
 
 ########
@@ -480,7 +482,8 @@ vestel stb_2012: NetFront/4.2.1(avkb/pc,B:461;avvp/ssl;avui/tv;avst/off;avdn/[+V
 vestel tv_2012: NetFront/4.2.1 (avkb/pc,B:461;avvp/ssl;avui/tv;avst/off;avdn/[+-v.tv.2012])
 vestel tv_2013: Opera/9.80 (Linux mips; U; ; en) Presto/2.10.287 Version/12.00 (avkb/pc,B:461;avvp/ssl;avui/tv;avst/off;avdn/[+-v.tv.2013])
 vestel tv_2013_crb: Opera/9.80 (Linux mips;) Presto/2.12.407 Version/12.50 (avkb/pc,B:461;avvp/ssl;avui/tv;avst/off;avdn/[+-v.tv.2013]) [+Broadcast]
-
+vestel tv_2013_crb: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.4.9.j (LINSAR, Si2156LG32, wired)HbbTV/1.1.1 (; CUS:LINSAR; [+MB9]5; 3.4.9.j; 1.0CE-HTML/1.0 NETRANGEMMH [+iplayerV3]
+vestel tv_2013_crb: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.4.9.j (TOSHIBA, Si2156LG32, wired) DTV_L34(00:09:4e:4a:14:d4/[+MB9]5/[+TOSHIBA-DTV]/3.4.9.j)+CE-HTML;MEM:HIGH
 
 ########
 # View21
@@ -495,8 +498,6 @@ view21 vw11fvrhd: Mozilla/5.0 (compatible; ANTGalio/3.2.0; Linux2.6.32.16/sh4; [
 ########
 
 western_digital live_streamer_stb_2012: Opera/9.80 (Linux armv61: U: [+WDSimpleBrowser]/0.2.10: en) Presto/2.8.115 Version/11.10
-#wdtv live_streamer_stb_2012v2: Opera/9.80 (Linux armv6l; [+Opera TV Store/4532]; U; Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) [+WDSimpleBrowser]/0.2.10 Safari/533.3; en) Presto/2.10.250 Version/11.60
-#wdtv live_streamer_stb_2012v3: Opera/9.80 (Linux armv6l; [+Opera TV Store/4544]; U; Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) [+WDSimpleBrowser]/0.2.10 Safari/533.3; en) Presto/2.10.250 Version/11.60
 western_digital streamer_stb_2010: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/534.34 (KHTML, like Gecko) SigmaDesigns/0.5 Safari/534.34; [+Westerndigital/Streamer2010]/Gen3-2.02.01
 
 
