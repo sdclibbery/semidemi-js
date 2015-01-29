@@ -287,7 +287,7 @@ panasonic bd_3d_2013_st: Opera/9.80 (Linux mn10300; U; (avdn/[+Panasonic.bd.2012
 panasonic bd_3d_2014: Opera/9.80 (Linux armv6l; Opera TV Store/5450; [+Panasonic.bd.mtk3d1.2014]; Mediatek) Presto/2.12.362 Version/12.10
 panasonic bd_3d_2014_mtk: Mozilla/5.0(compatible; U; InfiNet 0.1; Diga) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.bd.mtk3d2.2014])
 panasonic m8000: Opera/9.80 (Linux armv6l; U; [+Panasonic.bd.2012].[+Mediatek]; en) Presto/2.8.115 Version/11.10
-panasonic smarttv: Mozilla/5.0 (compatible; U; InfiNet 0.1; [+Viera]) AppleWebKit/420+ (KHTML, like Gecko)[-Panasonic.tv.2011]
+panasonic smarttv: Mozilla/5.0 (compatible; U; InfiNet 0.1; [+Viera]) AppleWebKit/420+ (KHTML, like Gecko)[-Panasonic.]
 panasonic tv_2011: ; [+Viera]) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.2011]
 panasonic tv_2012: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.2012])
 panasonic dmp_bdt110: Opera/9.80 (Linux mn10300; U; (avdn/[+Panasonic.bd.2011];avvp/ssl;avui/tv;avrt/html5;avkb/mcr,P:113,PU:114,S:115,SF:116,SB:117,ST:112;avui/tv;avst/on); en) Presto/2.8.115 Version/11.10
