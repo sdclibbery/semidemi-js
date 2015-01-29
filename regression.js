@@ -51,7 +51,7 @@ var runTest = function (testdata) {
 
 function runTests (tests) {
   var start = 900;//process.argv[2] || 0;
-  var end = 925;//process.argv[3] || tests.length;
+  var end = 935;//process.argv[3] || tests.length;
   console.log("Num UAs: " + tests.length);
   for (var i = start; i < end; i++) {
     runTest(tests[i]);
