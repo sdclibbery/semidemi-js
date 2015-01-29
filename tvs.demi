@@ -4,6 +4,7 @@
 
 3view 3view_settopbox_2010: Opera/9.80 (Linux mips; U;(avdn/[+3view.stb.2010];avkb/pc,E:0;avvp/ssl;avui/tv); en) Presto/2.4.17
 adb adb: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/534.1 (KHTML, like Gecko) kazoku/0.2 Safari/534.1 ([+ADB]; B14)
+amazon firetv: [+smarttv_AFTB]_Build_511069920_Chromium_30.0.1599.17
 ats tv_2013: [+ATSCE]/1.0 (Linux; {Android Version}; {Build Tag etc} AppleWebKit/{WebKit Rev} (KHTML, like Gecko) MATCHED IN BBC-WURFL
 cambridge bd_2012: Opera/9.80 (Linux armv6l; [+Opera TV Store/4515]; U; [+cambridge/752BD]; [+Mediatek]; en) Presto/2.10.250 Version/11.60
 cvt reference_tv: Mozilla/5.0 (X11; U; Linux i686; en) AppleWebKit/534.1 (KHTML, like Gecko) HbbTV/1.1.1 (+DL+PVR+RTSP;Mstar;OWB;;;) [+CVT-IDTVTESTUA]-T.MSD6328.T71B
@@ -289,10 +290,6 @@ panasonic m8000: Opera/9.80 (Linux armv6l; U; [+Panasonic.bd.2012].[+Mediatek]; 
 panasonic smarttv: Mozilla/5.0 (compatible; U; InfiNet 0.1; [+Viera]) AppleWebKit/420+ (KHTML, like Gecko)[-Panasonic.tv.2011]
 panasonic tv_2011: ; [+Viera]) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.2011]
 panasonic tv_2012: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.2012])
-panasonic tv_2014_highend: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.high.2014])
-panasonic tv_2014_lowend: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.low.2014])
-panasonic tv_2014_midrange: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.mid.2014])
-panasonic tv_2014_volume: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.volume.2014])
 panasonic dmp_bdt110: Opera/9.80 (Linux mn10300; U; (avdn/[+Panasonic.bd.2011];avvp/ssl;avui/tv;avrt/html5;avkb/mcr,P:113,PU:114,S:115,SF:116,SB:117,ST:112;avui/tv;avst/on); en) Presto/2.8.115 Version/11.10
 panasonic dmp_bdt110: Opera/9.80 (Linux mn10300;U;(avdn/[+Panasonic.bd.2012];avvp/ssl;avui/tv;avrt/html5;avkb/mcr,P:113,PU:114,S:115,SF:116,SB:117,ST:112;avui/tv;avst/on))Presto/2.12.362 Version/12.11
 panasonic dmp_bdt110: Opera/9.80 (Linux mn10300; U; (avdn/[+Panasonic.bd3d.2012];avvp/ssl;avui/tv;avrt/html5;avkb/mcr,P:113,PU:11 4,S:115,SF:116,SB:117,ST:112;avui/tv;avst/on); en) Presto/2.9.167 Version/11.50
@@ -301,7 +298,18 @@ panasonic bd_2d_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store]/5450; [+Panaso
 panasonic bd_3d_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store]/5450; [+Panasonic.bd3d.2013]; [+Mediatek]) Presto/2.12.362 Version/12.10
 panasonic tv_2013_mt5590: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.mtk.2013])
 panasonic tv_2013_pro4: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.pro4.2013])
+panasonic tv_2013_highend_global: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.global.tv.high.2013])
+panasonic tv_2013_volume_global: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.global.tv.volume.2013])
 panasonic tv_2014_topend: Mozilla/8.1(compatible; U; InfiNet 1.2; Viera) AppleWebKit/123+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.top.2014])
+panasonic tv_2014_highend: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.high.2014])
+panasonic tv_2014_lowend: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.low.2014])
+panasonic tv_2014_midrange: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.mid.2014])
+panasonic tv_2014_volume: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.volume.2014])
+panasonic tv_2014_highend_global: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.global.tv.high.2014])
+panasonic tv_2014_topend_global: Mozilla/8.1(compatible; U; InfiNet 1.2; Viera) AppleWebKit/123+ (KHTML, like Gecko)(avdn/[+Panasonic.global.tv.top.2014])
+panasonic tv_2014_lowend_global: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.global.tv.low.2014])
+panasonic tv_2014_midrange_global: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.global.tv.mid.2014])
+panasonic tv_2014_volume_global: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.global.tv.volume.2014])
 
 ########
 # Philips
