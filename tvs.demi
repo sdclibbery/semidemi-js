@@ -158,6 +158,7 @@ lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHT
 lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+1V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
 lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+1V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
 lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+3V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
+lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+5V-ZA]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
 lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+5V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
 lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+7V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
 lg tv_2013_midrange: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; [+8V-ZZ]; 02.06.01; 0x00000001;); [+LG NetCast.TV-2013]
@@ -412,6 +413,8 @@ sony hbbtv_2011: Opera/9.80 (Linux mips; U;  HbbTV/1.1.1 (; Sony; KDL32CX523; ; 
 sony hbbtv_2012: Opera/9.80 (Linux mips; U;  HbbTV/1.1.1 (; Sony; KDL40NX720; ; ;); [+sony.hbbtv.tv.2012]; en) Presto/2.9.167 Version/11.50
 sony hbbtv_2013: Opera/9.80 (Linux armv7l; U;  HbbTV/1.2.1 (; Sony; KDL46HX850; PKG0.530EUA; 2013;); [+sony.hbbtv.tv.2013]; en) Presto/2.10.287 Version/12.00
 sony hbbtv_2014: Opera/9.80 (Linux armv7l;  HbbTV/1.1.1 (; Sony; KDLRB2; PKGN.NNNEUA; 2014;); [+sony.hbbtv.tv.2014]; ) Presto/2.12.407 Version/12.50
+sony hbbtv_2015_midrange: Mozilla/5.0 (Linux armv7l) AppleWebkit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.69 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.9.7.ALSAN4.55 HbbTV/1.2.1 (; Sony; KDL40R415B; PKG4.410EUA; 2015;) [+sony.hbbtv.tv.2015LE]
+sony hbbtv_2015_highend: Mozilla/5.0 (Linux armv7l) AppleWebkit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.69 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.9.7.ALSAN4.55 HbbTV/1.2.1 (; Sony; KD550R415B; PKG4.410EUA; 2015;) [+sony.hbbtv.tv.2015HE]
 sony playstation_3: Mozilla/4.0 (PS3 ([+PlayStation 3]); 1.00)
 sony playstation_3: Mozilla/5.0 ([+PLAYSTATION 3]; 1.00)
 sony playstation_3_webkit: Mozilla/5.0 ([+PlayStation 3]) [+AppleWebKit]/531.3 (KHTML, like Gecko) SCEE/1.0 Nuanti/2.0
