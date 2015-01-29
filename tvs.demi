@@ -366,7 +366,7 @@ samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD
 samsung bd_ht_2014: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+B-HM5160]; [+Mediatek]) Presto/2.12.362 Version/12.11 Brand=[+Samsung] Platform=MTK Model=[+B-HM5160]
 samsung bd_ht_foxb_2013: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2013; [+Maple2012]) AppleWebKit/535.20+ (KHTML, like Gecko) SmartTV Safari/535.20+ Brand=[+Samsung] Platform=[+FoxB] 
 samsung bd_ht_foxb_2014: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2014; [+Maple2012]) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=[+Samsung] Platform=[+FOXB]  Model=xxxx
-samsung d8000: Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) [+Maple 6.0.000]80 modelId=[+genoa]
+samsung d8000: Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) [+Maple] 6.0.00080 modelId=[+genoa]
 samsung d8000: Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) [+Maple] 6.0.00062 modelId=[+x6] modelId=x6
 samsung ht_e4: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012]) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 [+Series=4000(HT)]
 samsung ht_e5: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012]) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 [+Series=5000(HT)]
