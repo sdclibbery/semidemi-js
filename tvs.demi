@@ -215,6 +215,9 @@ lg tv_2014_highend: Mozilla/5.0(Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML,
 lg tv_2014_ultrahighend: Mozilla/5.0(Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+ TV set capa; sw version, [+model name] ; sw version; hw version); [+LG NetCast.TV-2013]
 lg tv_2014_ultrahighend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+3D+SCREEN+TUNER; LGE; 49[+UB8]30V-ZA; 01.08.01; 0x00000001;); [+LG NetCast.TV-2013]
 
+# 2015
+
+lg tv_2015_midrange: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/538.2 (KHTML, like Gecko) Large Screen Safari/538.2 LG Browser/7.00.00(LGE; 32LF560V-ZF; 00.00.00; 1; DTV_W15M); [+webOS.TV-2015]; [+LG NetCast.TV-2013] Compatible (LGE, 32LF560V-ZF, wired)
 
 ########
 # Loewe
@@ -317,6 +320,7 @@ panasonic tv_2014_topend_global: Mozilla/8.1(compatible; U; InfiNet 1.2; Viera) 
 panasonic tv_2014_lowend_global: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.global.tv.low.2014])
 panasonic tv_2014_midrange_global: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.global.tv.mid.2014])
 panasonic tv_2014_volume_global: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.global.tv.volume.2014])
+panasonic bd_3d_2015: Mozilla/5.0 (Linux armv7l; [+Panasonic.bd.mtk3d2.2015]; Mediatek) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.12.29.ALSAN3.5
 
 ########
 # Philips
@@ -518,6 +522,8 @@ vestel tv_2013: Opera/9.80 (Linux mips; U; ; en) Presto/2.10.287 Version/12.00 (
 vestel tv_2013_crb: Opera/9.80 (Linux mips;) Presto/2.12.407 Version/12.50 (avkb/pc,B:461;avvp/ssl;avui/tv;avst/off;avdn/[+-v.tv.2013]) [+Broadcast]
 vestel tv_2013_crb: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.4.9.j (LINSAR, Si2156LG32, wired)[+HbbTV]/1.1.1 (; CUS:LINSAR; MB95; 3.4.9.j; 1.0CE-HTML/1.0 NETRANGEMMH [+iplayerV3]
 vestel tv_2013_crb: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.4.9.j (TOSHIBA, Si2156LG32, wired) [+DTV_L34](00:09:4e:4a:14:d4/MB95/[+TOSHIBA-DTV]/3.4.9.j)+[+CE-HTML];MEM:HIGH
+vestel dvr_2015: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 HbbTV/1.1.1 CE-HTML/1.0 freesat/2.0 (1.1/354); (Finlux; S7850; 1.0; pvr; [+VESTEL2015]; wired);
+
 
 ########
 # View21
