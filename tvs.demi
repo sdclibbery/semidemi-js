@@ -329,24 +329,26 @@ panasonic bd_3d_2015: Mozilla/5.0 (Linux armv7l; [+Panasonic.bd.mtk3d2.2015]; Me
 # Philips
 ########
 
-philips bd_2013: WebKit/3.4.1, (CE-HTML/1.0 NETTV/3.3.0 NewB) [+PHILIPS-AVM-2013/3.1] (Philips, BDP3480, wired)
 philips bdp5200: Opera/10.60 ([+Linux armv6l ; U; CE-HTML/1.0 NETTV/3.0.1;; en]) Presto/2.6.33 Version/10.60
-philips philips_bdp_2010: Opera/9.70 (Linux armv6l ; U; CE-HTML/1.0 (<profilelist><ui_profilename="[+PHILIPS_OLS_2010]"/></profilelist>); en) Presto/2.2.1
+philips hmp7000_bluray_2012: Opera/9.80 (Linux armv7l; U; [+CE-HTML]/1.0 NETTV/3.0.1; [+PHILIPS-AVM-2012]; en) Presto/2.10.250. Version/11.60
+philips tv_3_2_1: Opera/9.80 (Linux mips ; U; [+HbbTV]/1.1.1 (; [+Philips]; ; ; ; ) [+CE-HTML]/1.0 NETTV/3.2.1; en) Presto/2.6.33 Version/10.70
+philips tv_4_0_1: Opera/9.80 (Linux mips ; U; [+HbbTV]/1.1.1 (; [+Philips]; ; ; ; ) [+CE-HTML]/1.0 NETTV/4.0.1; en) Presto/2.9.167 Version/11.50
+philips tv550_r3: Opera/9.80 (Linux mips; U;[+HbbTV]/1.1.1(;[+Philips];;;;) [+CE-HTML]/1.0 NETTV/3.1.0; en) Presto/2.6.33 Version/10.70
+philips tv550_r4: Opera/9.80 (Linux mips; U;[+HbbTV]/1.1.1(; [+Philips];;;;) [+CE-HTML]/1.0 NETTV/3.2.4; en) Presto/2.6.33 Version/10.70
+philips philips_bdp_2010: Opera/9.70 (Linux armv6l ; U; [+CE-HTML]/1.0 (<profilelist><ui_profilename="[+PHILIPS_OLS_2010]"/></profilelist>); en) Presto/2.2.1
+philips bd_2011: Opera/9.80 (Linux armv 6I; U;[+HbbTV]/1.1.1)(;[+Philips];;;;)  [+CE-HTML]/1.0 NETTV/3.1.1;; en) Presto/2.6.33 Version/10.60
 philips hdsp_pvr_2012: [+SAGEMCOM]/2.0 [+HDSP]
-philips hmp7000_bluray_2012: Opera/9.80 (Linux armv7l; U; CE-HTML/1.0 NETTV/3.0.1; [+PHILIPS-AVM-2012]; en) Presto/2.10.250. Version/11.60
-philips 2012_tv: Opera/9.80 (Linux mips ; U; HbbTV/1.1.1 (; [+Philips;] ; ; ; ) CE-HTML/1.0 NETTV/4.1.1; en) Presto/2.6.33 Version/10.70
-philips 2012_tv: Opera/9.80 (Linux mips ; U; HbbTV/1.1.1 (; [+Philips;] ; ; ; ) CE-HTML/1.0 NETTV/4.1.1; en) Presto/2.6.33 Version/11.60
-philips tv_2013_fusion: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; [+Philips;];;;) CE-HTML/1.0 NETTV/4.0.2 [+PHILIPSTV/]1.1.1; en) Presto/2.10.250 Version/11.60
-philips tv_2013_mtk: Opera/9.80 (Linux armv7l; U; CE-HTML/1.0 NETTV/4.2.0 [+PHILIPSTV/]2.1.1; en) Presto/2.10.87 Version /11.60
-philips tv_2013_mtk: Opera/9.80 (Linux armv7l; HbbTV/1.1.1 (; [+Philips; ; ; PHILIPSTV;] ) CE-HTML/1.0 NETTV/4.3.1 [+PHILIPSTV/]2.1.1 Firmware/003.001.000.001 (PhilipsTV, 2.1.1,) en) Presto/2.12.362 Version/12.11
+philips 2012_tv: Opera/9.80 (Linux mips ; U; [+HbbTV]/1.1.1 (; [+Philips]; ; ; ; ) [+CE-HTML]/1.0 NETTV/4.1.1; en) Presto/2.6.33 Version/10.70
+philips 2012_tv: Opera/9.80 (Linux mips ; U; [+HbbTV]/1.1.1 (; [+Philips]; ; ; ; ) [+CE-HTML]/1.0 NETTV/4.1.1; en) [vPresto/2.6.33] Version/11.60
+philips bd_2013: WebKit/3.4.1, ([+CE-HTML]/1.0 NETTV/3.3.0 NewB) [+PHILIPS-AVM-2013/3.1] (Philips, BDP3480, wired)
+philips tv_2013_fusion: Opera/9.80 (Linux mips; U; [+HbbTV]/1.1.1 (; [+Philips];;;;) [+CE-HTML]/1.0 NETTV/4.0.2 [+PHILIPSTV/]1.1.1; en) Presto/2.10.250 Version/11.60
+philips tv_2013_mtk: Opera/9.80 (Linux armv7l; U; [+CE-HTML]/1.0 NETTV/4.2.0 [+PHILIPSTV/2.1].1; en) Presto/2.10.87 Version /11.60
+philips tv_2013_mtk: Opera/9.80 (Linux armv7l; [+HbbTV]/1.1.1 (; [+Philips]; ; ; [+PHILIPSTV]; ) [+CE-HTML]/1.0 NETTV/4.3.1 PHILIPSTV/2.1.1 Firmware/003.001.000.001 ([+PhilipsTV, 2.1].1,) en) Presto/2.12.362 Version/12.11
 philips tv_2014_highend_antgalio: [+HbbTV]/1.2.1 (;Philips;MT5591; [+PhilipsTV, 3.1].1;;) [+ANTGalio]/3.4.0.27.00.devel
-philips tv_2014_midrange: Opera/9.80 (Linux armv7l; [+HbbTV]/1.1.1 (; Philips; ; ; PHILIPSTV; ) CE-HTML/1.0 NETTV/4.1.1 SmartTvA/3.0.0 Firmware/001.175.003.000 ([+PhilipsTV, 4.1].1,) en) Presto/2.12.362 Version/12.11
+philips tv_2014_midrange: Opera/9.80 (Linux armv7l; HbbTV/1.1.1 (; Philips; ; ; PHILIPSTV; ) CE-HTML/1.0 NETTV/4.1.1 SmartTvA/3.0.0 Firmware/001.175.003.000 ([+PhilipsTV, 4.1].1,) en) Presto/2.12.362 Version/12.11
 philips tv_2014_midrange_antgalio: [+HbbTV]/1.2.1 (;Philips;MT5580; [+PhilipsTV, 4.1].1;;) [+ANTGalio]/3.4.0.27.00.devel
-philips 2014_tv_highend: [+HbbTV]Philips; ; ; PHILIPSTV; ) CE-HTML/1.0 NETTV/4.1.1 SmartTvA/3.0.0 Firmware/001.175.003.000 ([+PhilipsTV, 3.1].1,) en) Presto/2.12.362 Version/12.11
-philips tv_3_2_1: Opera/9.80 (Linux mips ; U; HbbTV/1.1.1 (; [+Philips; ; ; ; ]) CE-HTML/1.0 NETTV/3.2.1; en) Presto/2.6.33 Version/10.70
-philips tv_4_0_1: Opera/9.80 (Linux mips ; U; HbbTV/1.1.1 (; [+Philips; ; ; ; ]) CE-HTML/1.0 NETTV/4.0.1; en) Presto/2.9.167 Version/11.50
-philips tv_2015_midrange: Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Philips; ; ; PHILIPSTV; ) CE-HTML/1.0 NETTV/a.b.c SmartTvA/3.0.0  PHILIPSTV/a.b.c.d.e ([+PhilipsTV, 5.1.1],) en) Presto/2.12.407 Version/12.50
-
+philips 2014_tv_highend: HbbTVPhilips; ; ; PHILIPSTV; ) CE-HTML/1.0 NETTV/4.1.1 SmartTvA/3.0.0 Firmware/001.175.003.000 ([+PhilipsTV, 3.1].1,) en) Presto/2.12.362 Version/12.11
+philips tv_2015_midrange: Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Philips; ; ; PHILIPSTV; ) CE-HTML/1.0 NETTV/a.b.c SmartTvA/3.0.0  PHILIPSTV/a.b.c.d.e ([+PhilipsTV, 5.1].1,) en) Presto/2.12.407 Version/12.50
 
 ########
 # Roku
