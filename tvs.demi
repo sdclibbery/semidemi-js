@@ -218,6 +218,8 @@ lg tv_2014_ultrahighend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ 
 
 # 2015
 
+lg bdp_2015_midrange: Mozilla/5.0 (DirectFB; U; Linux armv7l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/off LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; LGE; [+Media/LHB]750; 23764; abc;); [+LG NetCast.Media-2011]
+lg bdp_2015_midrange: Mozilla/5.0 (DirectFB; U; Linux armv7l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/off LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; LGE; [+Media/BP550]; 23764; abc;); [+LG NetCast.Media-2011]
 lg tv_2015_midrange: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/538.2 (KHTML, like Gecko) Large Screen Safari/538.2 LG Browser/7.00.00(LGE; 32LF560V-ZF; 00.00.00; 1; DTV_W15M); [+webOS.TV-2015]; [+LG NetCast.TV-2013] Compatible (LGE, 32LF560V-ZF, wired)
 
 ########
