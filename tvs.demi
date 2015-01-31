@@ -324,6 +324,9 @@ panasonic tv_2014_lowend_global: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) 
 panasonic tv_2014_midrange_global: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.global.tv.mid.2014])
 panasonic tv_2014_volume_global: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.global.tv.volume.2014])
 panasonic bd_3d_2015: Mozilla/5.0 (Linux armv7l; [+Panasonic.bd.mtk3d2.2015]; Mediatek) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.12.29.ALSAN3.5
+panasonic bd_3d_2015_mtk: Mozilla/5.0 (Linux armv7l; [+Panasonic.bd.mtk3d1.2015]; Mediatek) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.12.29.ALSAN3.5
+panasonic bd_2d_2015: Mozilla/5.0 (Linux armv7l; [+Panasonic.bd.mtk2d.2015]; Mediatek) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.12.29.ALSAN3.5
+panasonic tv_2015_lowend: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.low.2015])
 
 ########
 # Philips
@@ -442,6 +445,8 @@ sony hbbtv_2015_highend: Mozilla/5.0 (Linux armv7l) AppleWebkit/537.36 (KHTML, l
 sony playstation_3: Mozilla/4.0 (PS3 ([+PlayStation 3]); 1.00)
 sony playstation_3: Mozilla/5.0 ([+PLAYSTATION 3]; 1.00)
 sony playstation_3_webkit: Mozilla/5.0 ([+PlayStation 3]) [+AppleWebKit]/531.3 (KHTML, like Gecko) SCEE/1.0 Nuanti/2.0
+sony playstation_2014: Mozilla/5.0 ([+PlayStation Vita]) AppleWebKit/531.3 (KHTML, like Gecko) SCEE/1.0 Nuanti/2.0
+sony playstation_2014: Mozilla/5.0 ([+PlayStation TV]) AppleWebKit/531.3 (KHTML, like Gecko) SCEE/1.0 Nuanti/2.0
 sony playstation4: Mozilla/5.0 ([+PlayStation 4]) AppleWebKit/531.3 (KHTML, like Gecko) SCEE/1.0 Nuanti/2.0
 sony dtv_2011: Opera/9.80 (Linux mips ; U; (DTV; DTV11/1.0; like Gecko;Opera/10.30)(avdn/[+sony.tv.2011];avui/tv;avvp/ssl;avst/on;avkb/mc,B:27); en) Presto/2.5.21 Version/10.30
 sony tv_2012: Opera/9.80 (DTV; DTV12/1.0; like Gecko;Opera/10.30)(avdn/[+sony.tv.2012];avui/tv;avvp/ssl;avst/on;avkb/mc,B:27) Presto/2.9.167 Version/11.50
