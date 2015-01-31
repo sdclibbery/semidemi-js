@@ -76,7 +76,10 @@ humax hdr_1000s: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; [+Humax]; [+HDR-5100S
 humax hdr_1000s: Opera/9.80 (Linux mips; HbbTV/1.2.1 (; Freesat/1.0; [+hdr1000s]; 1.0.0; 1.0.0; wired); ce-html/1.0) Presto/2.12.407 Version/12.50
 humax pvr_2013: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; Freesat/1.0; [+hb1000s]; 1.0.0; 1.0.0; wired); ce-html/1.0; en) Presto/2.10.250 Version/11.60
 humax pvr_2013: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; Freesat/1.0; [+hdr2000t]; 1.0.0; 1.0.0; wired); ce-html/1.0; en) Presto/2.10.250 Version/11.60
+humax pvr_hd_2013: Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; [+Humax]; [+HDR-2000T]; 1.01.10; 1.0.0; ); ce-html/1.0; en) Presto/2.10.250 Version/11.60
 humax humax_tv: HbbTV/1.1.1 (+PVR;;;;avdn/[+humax].stb.2010) ANTGalio/3.1.5.24.04.08
+humax pvr_2015: Opera/9.80 (Linux mips; HbbTV/1.2.1 (PVR; [+Humax]; [+hdr4000t]; UKTFAE 0.92.00; 1.0.0; wired; UX-PRISM--OP-NONE); ce-html/1.0) Presto/2.12.407 Version/12.50 (Core 2.12.407)
+humax pvr_2015: Opera/9.80 (Linux mips; HbbTV/1.2.1 (PVR; [+Humax]; [+hdr1000t]; UKTFAE 0.92.00; 1.0.0; wired; UX-PRISM--OP-NONE); ce-html/1.0) Presto/2.12.407 Version/12.50 (Core 2.12.407)
 
 ########
 # LG
@@ -221,6 +224,9 @@ lg tv_2014_ultrahighend: Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ 
 lg bdp_2015_midrange: Mozilla/5.0 (DirectFB; U; Linux armv7l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/off LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; LGE; [+Media/LHB]750; 23764; abc;); [+LG NetCast.Media-2011]
 lg bdp_2015_midrange: Mozilla/5.0 (DirectFB; U; Linux armv7l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/[+LG.Media-2010] avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/off LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; LGE; [+Media/BP550]; 23764; abc;); [+LG NetCast.Media-2011]
 lg tv_2015_midrange: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/538.2 (KHTML, like Gecko) Large Screen Safari/538.2 LG Browser/7.00.00(LGE; 32LF560V-ZF; 00.00.00; 1; DTV_W15M); [+webOS.TV-2015]; [+LG NetCast.TV-2013] Compatible (LGE, 32LF560V-ZF, wired)
+lg tv_2015_midrange: Mozilla/5.0 Large Screen Safari/538.2 LG Browser/7.00.00(LGE; DTV_W15M); [+webOS.TV-2015]; [+LG NetCast.TV-2013]
+lg tv_2015_highend: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/538.2 (KHTML, like Gecko) Large Screen Safari/538.2 LG Browser/7.00.00(LGE; 49UF770V-ZA; 00.00.00; 1; DTV_W15H); [+webOS.TV-2015]; [+LG NetCast.TV-2013] Compatible (LGE, 49UF770V-ZA, wired)
+lg tv_2015_ultrahighend: Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/538.2 (KHTML, like Gecko) Large Screen Safari/538.2 LG Browser/7.00.00(LGE;UF7500; 00.00.00; 1; DTV_W15U); [+webOS.TV-2015]; [+LG NetCast.TV-2013] Compatible (LGE, UF7500, wired)
 
 ########
 # Loewe
