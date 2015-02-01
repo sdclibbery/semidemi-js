@@ -8,9 +8,6 @@ eval(fs.readFileSync('./src/bestmatch.js', 'utf8'));
 
 console.log("SemiDemi Regression Tests");
 
-// !!! Turn this into regression tests :-)
-// Reuse spec/regression.js if possible
-// Run new regression data and update matchers
 // Have a script to build tvs.demi.js from tvs.demi
 // Run checker script and update matchers if required (may need ability to run it 'in sections'...)
 
@@ -50,9 +47,9 @@ var runTest = function (testdata) {
 }
 
 function runTests (tests) {
-  var start = 1010;//process.argv[2] || 0;
-  var end = 1030;//process.argv[3] || tests.length;
-  console.log("Num UAs: " + tests.length);
+  var start = process.argv[2] || 0;
+  var end = process.argv[3] || tests.length;
+  console.log("Num UAs: " + (tests.length+1));
   for (var i = start; i < end; i++) {
     runTest(tests[i]);
   }
