@@ -4,7 +4,6 @@
 
 3view 3view_settopbox_2010: Opera/9.80 (Linux mips; U;(avdn/[+3view.stb.2010];avkb/pc,E:0;avvp/ssl;avui/tv); en) Presto/2.4.17
 adb adb: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/534.1 (KHTML, like Gecko) kazoku/0.2 Safari/534.1 ([+ADB]; B14)
-amazon firetv: [+smarttv_AFTB]_Build_511069920_Chromium_30.0.1599.17
 ats tv_2013: [+ATSCE]/1.0 (Linux; {Android Version}; {Build Tag etc} AppleWebKit/{WebKit Rev} (KHTML, like Gecko) MATCHED IN BBC-WURFL
 cambridge bd_2012: Opera/9.80 (Linux armv6l; [+Opera TV Store/4515]; U; [+cambridge/752BD]; [+Mediatek]; en) Presto/2.10.250 Version/11.60
 cvt reference_tv: Mozilla/5.0 (X11; U; Linux i686; en) AppleWebKit/534.1 (KHTML, like Gecko) HbbTV/1.1.1 (+DL+PVR+RTSP;Mstar;OWB;;;) [+CVT-IDTVTESTUA]-T.MSD6328.T71B
@@ -26,6 +25,13 @@ pure gemini_pvr_vl_61770: [+Pure-VL61770]-2012-01
 seiki tv_2014: Mozilla/5.0(Linuxmipsel;U;en-GB;)AppleWebKit/537.4 (KHTML,likeGecko)[+HbbTV]/1.1.1(;TFG;MWB;;;)[+TFG-OTT]
 triax stb_2013: Mozilla/5.0 (; U; Linux SH4; en) AppleWebkit/534.1 (KHTML, like Gecko) HbbTV/1.1.1 (;[+GMI-SS-Browser]- 3.0; mB/7108;1.0.0;1.00;)
 trident tv_2012: Mozilla/5.0 (X11; U; Linux i686; en-US; 1.9.2.10) AppleWebKit/533.1 (KHTML, like Gecko) [+trident.tv.2012]/1.0.0 HbbTV/1.1.1
+
+########
+# Amazon
+########
+
+amazon firetv: [+smarttv]_[+AFTB]_Build_511069920_Chromium_30.0.1599.17
+amazon firetv_stick: [+smarttv]_[+AFTM]_Build_101016220_Chromium_30.0.1599.17
 
 ########
 # BBC
@@ -335,6 +341,7 @@ panasonic bd_3d_2015_mtk: Mozilla/5.0 (Linux armv7l; [+Panasonic.bd.mtk3d1.2015]
 panasonic bd_2d_2015: Mozilla/5.0 (Linux armv7l; [+Panasonic.bd.mtk2d.2015]; Mediatek) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.12.29.ALSAN3.5
 panasonic tv_2015_lowend: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.low.2015])
 panasonic tv_2015_volume: Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420+ (KHTML, like Gecko)(avdn/[+Panasonic.tv.volume.2015])
+panasonic tv_2015_midrange: Mozilla/5.0 (FreeBSD; U; Viera; en-IE) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.12.0 Chrome/23.0.1271.97 Safari/537.11 (avdn/[+Panasonic.tv.mid.2015])
 
 ########
 # Philips
@@ -393,16 +400,6 @@ samsung bd_e5: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012
 samsung bd_e6: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012]) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 [+Series=6000(BD)]
 samsung bd_e8: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012]) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 [+Series=8000(BD)]
 samsung bd_es7: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012]) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 [+Series=7000(BD)]
-samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/4515]; U; [+Smart-BD]; M; Linux/SmartBD; [+HT-F4200;] [+Mediatek]; en) Presto/2.10.250 Version/11.60
-samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+HT-F4200;] [+Mediatek]) Presto/2.12.362 Version/12.11
-samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/4515]; U; [+Smart-BD]; M; Linux/SmartBD; [+HT-F4500;] [+Mediatek]; en) Presto/2.10.250 Version/11.60
-samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+HT-F4500;] [+Mediatek]) Presto/2.12.362 Version/12.11
-samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/4515]; U; [+Smart-BD]; M; Linux/SmartBD; [+BD-F5500;] [+Mediatek]; en) Presto/2.10.250 Version/11.60
-samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+BD-F5500;] [+Mediatek]) Presto/2.12.362 Version/12.11
-samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+BD-F5100;] [+Mediatek]) Presto/2.12.362 Version/12.11
-samsung bd_ht_2014: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+B-HM5160]; [+Mediatek]) Presto/2.12.362 Version/12.11 Brand=[+Samsung] Platform=MTK Model=[+B-HM5160]
-samsung bd_ht_foxb_2013: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2013; [+Maple2012]) AppleWebKit/535.20+ (KHTML, like Gecko) SmartTV Safari/535.20+ Brand=[+Samsung] Platform=[+FoxB] 
-samsung bd_ht_foxb_2014: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2014; [+Maple2012]) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=[+Samsung] Platform=[+FOXB]  Model=xxxx
 samsung d8000: Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) [+Maple] 6.0.00080 modelId=[+genoa]
 samsung d8000: Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) [+Maple] 6.0.00062 modelId=[+x6] modelId=x6
 samsung ht_e4: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012]) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 [+Series=4000(HT)]
@@ -416,14 +413,24 @@ samsung pe6: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012])
 samsung pe7: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012]) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 [+Series=7000(TV)]
 samsung pe8: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012]) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 [+Series=8000(TV)]
 samsung stb_e7: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV; [+Maple2012]) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 [+Series=7000(STB)]
+samsung tv_foxp_2013: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2013; [+Maple2012]) AppleWebKit/535.20+ (KHTML, like Gecko) SmartTV Safari/535.20+ Brand=[+Samsung] Platform=[+FoxP] Model=xxxx DUMMY SAMSUNG UA MATCHED IN BBC-WURFL SAMSUNGTVMATCHER.JAVA
+samsung tv_x12_2013: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2013; [+Maple2012]) AppleWebKit/535.20+ (KHTML, like Gecko) SmartTV Safari/535.20+ Brand=[+Samsung] Platform=[+X12] Model=UF6400
+samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/4515]; U; [+Smart-BD]; M; Linux/SmartBD; [+HT-F4200;] [+Mediatek]; en) Presto/2.10.250 Version/11.60
+samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+HT-F4200;] [+Mediatek]) Presto/2.12.362 Version/12.11
+samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/4515]; U; [+Smart-BD]; M; Linux/SmartBD; [+HT-F4500;] [+Mediatek]; en) Presto/2.10.250 Version/11.60
+samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+HT-F4500;] [+Mediatek]) Presto/2.12.362 Version/12.11
+samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/4515]; U; [+Smart-BD]; M; Linux/SmartBD; [+BD-F5500;] [+Mediatek]; en) Presto/2.10.250 Version/11.60
+samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+BD-F5500;] [+Mediatek]) Presto/2.12.362 Version/12.11
+samsung bd_ht_2013: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+BD-F5100;] [+Mediatek]) Presto/2.12.362 Version/12.11
+samsung bd_ht_foxb_2013: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2013; [+Maple2012]) AppleWebKit/535.20+ (KHTML, like Gecko) SmartTV Safari/535.20+ Brand=[+Samsung] Platform=[+FoxB] 
+samsung bd_ht_2014: Opera/9.80 (Linux armv6l; [+Opera TV Store/5530]; [+Smart-BD]; M; Linux/SmartBD; [+B-HM5160]; [+Mediatek]) Presto/2.12.362 Version/12.11 Brand=[+Samsung] Platform=MTK Model=[+B-HM5160]
+samsung bd_ht_foxb_2014: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2014; [+Maple2012]) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=[+Samsung] Platform=[+FOXB]  Model=xxxx
 samsung tv_2014_highend: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2014; [+Maple2012]) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=[+Samsung] Platform=[+GOLFP] Model=xxxx
 samsung tv_2014_lowend: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2014; [+Maple2012]) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=[+Samsung] Platform=[+X14] Model=xxxx
 samsung tv_2014_midrange: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2014; [+Maple2012]) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=[+Samsung] Platform=[+GOLFS] Model=xxxx
 samsung tv_2014_ultra_highend: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2014; [+Maple2012]) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=[+Samsung] Platform=[+NT14U] Model=xxxx
 samsung tv_2014_volume: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2014; [+Maple2012]) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=[+Samsung] Platform=[+NT14M] Model=xxxx
-samsung tv_foxp_2013: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2013; [+Maple2012]) AppleWebKit/535.20+ (KHTML, like Gecko) SmartTV Safari/535.20+ Brand=[+Samsung] Platform=[+FoxP] Model=xxxx DUMMY SAMSUNG UA MATCHED IN BBC-WURFL SAMSUNGTVMATCHER.JAVA
-samsung tv_x12_2013: Mozilla/5.0 (SmartHub; [+SMART-TV]; U; Linux/SmartTV+2013; [+Maple2012]) AppleWebKit/535.20+ (KHTML, like Gecko) SmartTV Safari/535.20+ Brand=[+Samsung] Platform=[+X12] Model=UF6400
-
+samsung bd_ht_2015: Mozilla/5.0 (Linux armv7l; [+Maple] B-[+HM5363]; [+MediaTek]) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.12.29.ALSAN3.5
 
 ########
 # Sharp
