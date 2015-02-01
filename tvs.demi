@@ -55,7 +55,7 @@ bang_and_olufsen tv_2012_crb: Opera/9.80 (Linux i686; [+HbbTV]/1.1.1 (+PVR; [+BA
 ########
 
 bt_vision dps_1000_legacy: Mozilla/5.0 (avdn/[+bt_cardinal.stb.2011]; avkb/pc,B:1572866; avvp/ssl; avui/tv;avrt/cehtml; avst/off; Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.13) CE-HTML/1.0 [+OreganMediaBrowser]/4.21.3 Gecko/20080311 Firefox/2.0.0.13
-bt_vision dps_1000: Mozilla/5.0 (avdn/[+bt_cardinal.stb.2011]; avkb/pc,B:1572866; avvp/ssl; avui/tv; avrt/cehtml; avst/off; Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.13) CE-HTML/1.0 [+BT-Cardinal-G]2512/4.30.1
+bt_vision dps_1000: Mozilla/5.0 (avdn/[+bt_cardinal.stb.2011]; avkb/pc,B:1572866; avvp/ssl; avui/tv; avrt/cehtml; avst/off; Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.13) CE-HTML/1.0 BT-Cardinal-G2512/4.30.1
 
 ########
 # Cello
@@ -69,6 +69,8 @@ cello bush_smart_tv_2012_c32z18fiptv: Mozilla/5.0 (X11; U; Linux i686; en) Apple
 ########
 
 goodmans stb_2013_gv102zrh: Mozilla/5.0 (compatible; ANTGalio/3.2.0; Linux2.6.32.16/sh4; [+GV102ZRH])
+goodmans stb_2013_gv102zrh: Mozilla/5.0 (compatible; ANTGalio/3.2.0; Linux2.6.32.16/sh4; [+BU102ZRH])
+goodmans stb_2013_gv102zrh: Mozilla/5.0 (compatible; ANTGalio/3.2.0; Linux2.6.32.16/sh4; [+VV107ZRH])
 goodmans stb_2013: Mozilla/5.0(Linuxmipsel;U;en-GB;)AppleWebKit/537.4 (KHTML,likeGecko)HbbTV/1.1.1(;[+GEEYA];MWB;;;)[+GEEYA]-P1218 
 
 
