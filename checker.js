@@ -35,9 +35,12 @@ function semidemi (ua) {
 }
 
 function parseDemi (response) {
-  var brand = response.match(/<dt>brand<\/dt>\s*<dd><span class=\"string\">([^<]+)<\/span><\/dd>/)[1];
-  var model = response.match(/<dt>model<\/dt>\s*<dd><span class=\"string\">([^<]+)<\/span><\/dd>/)[1];
-  return normaliseDemiValue(brand) + "-" + normaliseDemiValue(model);
+  var brandMatch = response.match(/<dt>brand<\/dt>\s*<dd><span class=\"string\">([^<]+)<\/span><\/dd>/);
+  var modelMatch = response.match(/<dt>model<\/dt>\s*<dd><span class=\"string\">([^<]+)<\/span><\/dd>/);
+  if (!brandMatch || !modelMatch) {
+    return;
+  }
+  return normaliseDemiValue(brandMatch[1]) + "-" + normaliseDemiValue(modelMatch[1]);
 }
 
 function demi (ua, succ, err) {
