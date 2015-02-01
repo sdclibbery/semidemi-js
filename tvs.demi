@@ -549,6 +549,7 @@ vestel tv_2013_crb: Opera/9.80 (Linux mips;) Presto/2.12.407 Version/12.50 (avkb
 vestel tv_2013_crb: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.4.9.j (LINSAR, Si2156LG32, wired)[+HbbTV]/1.1.1 (; CUS:LINSAR; MB95; 3.4.9.j; 1.0CE-HTML/1.0 NETRANGEMMH [+iplayerV3]
 vestel tv_2013_crb: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.4.9.j (TOSHIBA, Si2156LG32, wired) [+DTV_L34](00:09:4e:4a:14:d4/MB95/[+TOSHIBA-DTV]/3.4.9.j)+[+CE-HTML];MEM:HIGH
 vestel dvr_2015: Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 HbbTV/1.1.1 CE-HTML/1.0 freesat/2.0 (1.1/354); (Finlux; S7850; 1.0; pvr; [+VESTEL2015]; wired);
+vestel tv_2015_highend: Mozilla/5.0 (Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 OPR/25.0.1620.0 OMI/4.3.18.7.Dominik.0 VSTVB [+MB100] [+HbbTV]/1.2.1 (; TOSHIBA; MB100; 0.0.0.0; ;) [+SmartTvA]/3.0.0
 
 
 ########
