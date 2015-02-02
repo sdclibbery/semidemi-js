@@ -54,35 +54,42 @@ function demi (ua, succ, err) {
   }, err);
 }
 
-function testUA (ua, done) {
+function testUA (ua, idx, done) {
   demi(ua, function (demi) {
     if (semidemi(ua) === demi) {
       process.stdout.write(".");
     } else {
       process.stdout.write("x");
-      console.log("\nFAILED: " + ua + "\nSemiDemi:  " + semidemi(ua) + "\nDemi    : " + demi);
+      console.log("\n"+idx+": FAILED: " + ua + "\nSemiDemi:  " + semidemi(ua) + "\nDemi    : " + demi);
     }
     done();
   }, function (err) {
     process.stdout.write("e");
-    console.log("\nERROR: " + ua + "\nDemi error: " + err);
+    console.log("\n"+idx+": ERROR: " + ua + "\nDemi error: " + err);
     done();
   });
 }
 
 function runTests (uas) {
+  var start = process.argv[2] || 0;
+  var end = process.argv[3] || lines.length;
   var lines = uas.split(/[\r\n]+/);
   console.log("Num UAs: " + lines.length);
   var i = 0;
   var doNextTest = function () {
-    testUA(lines[i], function () {
+    var next = function () {
       i++;
       if (i < lines.length) {
         doNextTest();
       } else {
         console.log("Finished");
       }
-    });
+    };
+    if (i >= start && i <= end) {
+      testUA(lines[i], i, next);
+    } else {
+      next();
+    }
   };
   doNextTest();
 }
