@@ -71,8 +71,8 @@ function testUA (ua, idx, done) {
 }
 
 function runTests (uas) {
-  var start = process.argv[2] || 0;
-  var end = process.argv[3] || lines.length;
+  var start = 270;//process.argv[2] || 0;
+  var end = 275;//process.argv[3] || lines.length;
   var lines = uas.split(/[\r\n]+/);
   console.log("Num UAs: " + lines.length);
   var i = 0;
