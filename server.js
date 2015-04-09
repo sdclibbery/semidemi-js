@@ -16,7 +16,7 @@ var normaliseDemiValue = function (v) {
 }
 
 app.get('/', function (req, res) {
-  var uagent = req.query.ua || "";
+  var uagent = req.query.ua || req.headers['user-agent'] || '';
   var result = SemiDemi.bestMatch(matchers, uagent);
   if (!result) { result = [{ brand:"generic", model:"smarttv" }] }
   res.send(JSON.stringify(result[0]));
