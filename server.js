@@ -1,8 +1,9 @@
-var http = require("http");
-var url = require("url");
-var path = require("path");
+var express = require('express');
 var fs = require("fs");
-var port = 9990;
+
+var app = express();
+
+var port = 7591;
 
 eval(fs.readFileSync('./src/parser.js', 'utf8'));
 eval(fs.readFileSync('./src/matcher.js', 'utf8'));
@@ -14,14 +15,13 @@ var normaliseDemiValue = function (v) {
   return v.toLowerCase().replace(/[^a-z0-9]/g, "_");
 }
 
-var server = http.createServer(function(req, res) {
-  var uagent = req.headers['user-agent'];
+app.get('/', function (req, res) {
+  var uagent = req.query.ua || "";
   var result = SemiDemi.bestMatch(matchers, uagent);
   if (!result) { result = [{ brand:"generic", model:"smarttv" }] }
-  var id = result[0].brand+"-"+result[0].model;
-  res.writeHead(200, {"Content-Type": "text/html"});
-  res.write(id);
-  res.end();
+  res.send(JSON.stringify(result[0]));
 });
-server.listen(port);
 
+app.listen(port, function() {
+  console.log('running on port: ' +port);
+});
